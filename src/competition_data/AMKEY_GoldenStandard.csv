@@ -1,0 +1,512 @@
+AMKEY,ActivityMetric
+3,Advisory fees as per income statement
+6,Air emissions of the following pollutants: (1) CO
+7,Air emissions of the following pollutants: (2) NOx (excluding N2O)
+8,Air emissions of the following pollutants: (3) SOx
+9,Air emissions of the following pollutants: (4) particulate matter (PM10)
+10,Air emissions of the following pollutants: (5)  volatile organic compounds (VOCs)
+11,ALL Administration expenses per income statement
+12,All Inury Frequency Rate (Injuries/1m hrs worked)
+13,"Amount of assets under management, by asset class, that employ governance issues"
+14,"Amount of assets under management, by asset class, that employ integration of environmental issues"
+15,"Amount of assets under management, by asset class, that employ integration of environmental, social, and governance issues"
+16,"Amount of assets under management, by asset class, that employ social issues"
+17,"Amount of assets under management, by asset class, that employ sustainability themed investing"
+18,"Amount of assets under management, by asset class, that employ sustainability themed screening"
+20,Amount of fines paid or payable due to settlements
+21,Volume of Waste sent for Recycling (tonnes) – Food Waste Recovered
+26,Area of forestland leased
+27,Area of forestland managed by the entity
+28,Area of forestland owned
+29,Area of forestland restored and or rehabilitated
+31,Area of forestland with protected conservation status
+35,Audit committee meeting attendance rate
+38,Average hours of training
+41,"Average number hours of health, safety, and emergency response training for full-time employees"
+42,"Average number of hours of health, safety, and emergency response training for contract employees"
+43,Average number of hours of training on anti-corruption issues per year
+44,The average number of hours of training on anti-corruption issues per employee
+46,"BBBEE procurement spend from Exempt Micro Enterprises (EMEs), Qualifyimg Small Enterprises (QSEs) & Empowering Suppliers that are >51 black owned"
+47,BBBEE procurement spend from Qualifyimg Small Enterprises (QSEs) as a % of total spend
+48,BBBEE procurment spend from all EME's as a % of total spend
+49,B-BBEE Scorecard Level
+50,Percentage of black board members
+51,Black female exec. directors as a % of all directors
+52,Board meeting attendance rate
+53,Board members between 30 - 50
+54,Board members over 50
+55,Board members under 30
+62,Contractor costs per income statement
+63,Corporate office costs per income statement
+64,Cost of sales as per income statement
+65,Cost relating to acquisition per income statement
+66,Custom duties as per income statement
+67,Depreciation as per income statement
+70,Description of management approach to identifying and addressing data security risks
+74,"Description of approach to incorporation of environmental, social, and governance (ESG) factors in investment and/or wealth management processes and strategies"
+77,Description of approach to informing customers about products and services
+82,Description of environmental management policies and practices for active sites
+83,Description of proxy voting and investee engagement policies and procedures
+86,Description of the management system for prevention of corruption and bribery throughout the value chain
+90,"Discussion of engagement processes and due diligence practices with respect to human rights, indigenous rights, and operation in areas of conflict"
+93,Discussion of management of accident and safety risks and long-term health and safety risks
+95,Discussion of processes to assess and manage risks and/or hazards associated with chemicals in products
+96,Discussion of process to identify and manage emerging materials and chemicals of concern on product safety
+97,Discussion of process to manage risks and opportunities associated with community rights and interests
+100,Discussion of strategies to reduce the environmental impact of packaging
+101,Duration of strikes and lockouts
+103,Economic interest (% ownership) of black people
+104,Economic interest (% ownership) of black women
+105,Emissions Reduction Strategy
+109,Employee wages and benefits
+110,Employee wages and benefits as a proportion of revenue
+111,Employee wages and benefits as a proportion of revenue by gender: Male
+112,Employee wages and benefits as a proportion of revenue by race
+113,Energy Efficiency (Energy consumption per net value added)
+114,Energy Efficiency (Energy consumption per saleable output)
+115,Exercisable voting rights in the hands of black people
+116,Exercisable voting rights in the hands of black women
+118,Expenditure on employee training
+119,Expenditure on employee training per employee
+120,Expenditures on employee health and safety (Total spend on occupational safety initiatives)
+121,Expenditures on employee health and safety as a proportion of revenue
+122,Fatal injury frequency rate (FIFR)
+123,Fatality rate
+124,Finance cost per income statement
+125,Financial assistance received from the government - Total monetary value of financial assistance received by the organisation from any government during the reporting period
+126,Frequency/incident rates of occupational injuries
+128,GHG Scope 1 emissions
+129,GHG Scope 2 emissions
+130,GHG Scope 3 emissions
+132,Graduation of 1 or more Enteprise Development beneficiaries to Supplier Development beneficiary
+133,Greenhouse Gas (GHG) intensity rate
+134,Gross Value Added
+135,Hazardous waste
+136,Hazardous waste recycled
+137,Hazardous waste recycled as a percentage of total waste
+138,Hazardous waste to legal landfill
+141,Income from investments per income statement
+142,Industry membership contributions per income statement
+143,Infrastructure development in host communities
+144,Insurance expenditure per income statement
+145,Investment in water and sanitation infrastructure
+146,Total spend directed towards impact investments
+148,Involuntary turnover rate for all employees
+150,Legal fees per income statement
+151,Lost-time injury frequency rate (LTIFR)
+153,Maintenance costs per income statement
+154,Material costs per income statement
+156,"Number of Medical Treatment Cases (MTCs, i.e. injuries on duty leading to medical treatment, but no lost days)"
+157,Medically treated injury frequency rate (MTIFR)
+162,Movement in Inventories per income statement
+163,Natural gas consumed
+164,Near miss frequency rate (NMFR)
+166,Net value added (NVA)
+169,Non-hazardous waste
+170,Non-hazardous waste sent to legal landfill
+172,Number and duration of non-technical delays
+179,Number of account holders affected by data breaches
+183,Number of audit committee meetings
+185,Number of black female board members
+187,"Number of black people participating in learnerships, internships & apprenticeships"
+188,Number of black people/HDSA  in executive management
+189,Number of black people/HDSA  in junior management
+190,Number of black people/HDSA  in middle management
+191,Number of black people/HDSA  in senior management
+193,Number of black women in middle management
+194,Number of black women in executive management
+195,Number of black women in junior management
+196,Number of black women in senior management
+197,Number of board meetings
+198,Number of Compensation for Occupational Injuries and Diseases (COID) lost time for employees
+203,Number of data breaches
+212,Number of employees covered by medical aid/wellness benefits
+213,Number of employees living with disabilities (PwD)
+214,Number of employees screened for HIV/AIDS
+216,Number of environmental incidents with a negative impact
+219,Number of work-related fatalities
+220,Number of female board members
+222,Number of food items/units recalled
+226,HIV/AIDS management programme
+228,"Number of incidents of non-compliance associated with water quality permits, standards, and regulations"
+229,Number of jobs directly created as a result of enterprise & supplier development (ESD) initiatives
+232,Number of legal judgements or convictions
+236,Number of lost time injuries for employees
+243,Number of occupational diseases
+244,Number of occupational injuries
+246,Number of employees in/ recipients of leadership training
+252,"Number of recalls issued, total units recalled"
+259,Number of strikes and lockouts
+262,"Number of tailings impoundments, broken down by MSHA hazard potential"
+265,Occupational illness rate
+267,Other costs as per income statement
+268,Other Income as per income statement
+269,Ozone depleting substances (Total amount of ozone-depleting substances (ODS) (bulk chemicals/substances existing either as a pure substance or as a mixture) per net value added.)
+273,Patents & licencing costs - Additions as per balance sheet
+274,Penalties/fines or contributions paid
+275,Percentage covered under emissions-limiting regulations
+276,Percentage grid electricity
+277,Percentage hazardous waste recycled
+278,Percentage of  coloured & indian people in junior management
+279,Percentage of  coloured & indian people in middle management
+281,Percentage of Black people in Executive Management
+282,Percentage of Black people in Non-Executive Management
+285,Percentage of black people/ HDSA in executive management
+286,Percentage of black people/ HDSA in junior management
+287,Percentage of black people/ HDSA in middle management
+288,Percentage of black people/ HDSA in senior management
+289,Percentage of black people/ HDSA in workforce
+290,Percentage of coloured & indian people in executive management
+291,Percentage of coloured & indian people in senior management
+293,Percentage of data breaches involving personally identifiable information (PII)
+294,Percentage of discretionary procurement
+295,Percentage of employees covered by collective agreements
+298,Percentage of female board members
+300,Percentage of Management (Top and Senior) who are Women
+302,Female employees professionally-qualified
+308,Percentage of Indian people in Non-Executive Management
+311,Percentage of local procurement (BEE spend in SA)
+314,Percentage of Male in Non-executive Management
+316,Percentage of mine sites where acid rock drainage is actively mitigated
+317,Percentage of mine sites where acid rock drainage is predicted to occur
+318,Percentage of mine sites where acid rock drainage is under treatment or remediation
+319,Percentage of mineral processing waste recycled
+321,Percentage of other racial group in non-executive management
+323,Percentage of payroll spent on skills development for black employees through specified learning programmes
+324,Percentage of probable reserves in or near areas of conflict
+325,Percentage of probable reserves in or near indigenous land
+326,Percentage of probable reserves in or near sites with protected conservation status or endangered species habitat
+331,Percentage of proved reserves in or near areas of conflict
+332,Percentage of proved reserves in or near indigenous land
+333,Percentage of proved reserves in or near sites with protected conservation status or endangered species habitat
+334,Percentage of tailings waste recycled
+338,Percentage of waste recycled
+339,Percentage of water recycling and reuse
+341,Percentage of white people in junior management positions
+343,Percentage of white people in non-executive management
+347,Percentage of white people of the board of directors
+348,Percentage of women in management
+349,Percentage of women in workforce
+353,Percentage Renewable Energy
+356,Plant readiness as per income statement
+364,Procurement from suppliers that are majority black-owned or 30% or more black women-owned
+366,Production in countries that have the 20 lowest rankings in Transparency International’s Corruption Perception Index
+367,Production of finished metal products
+368,Production of metal ores
+369,Project studies as per income statement
+376,Proportion of Women in Management
+379,Recordable injury frequency rate (RIFR)
+380,Reduction of waste generation (per net value)
+382,Restructuring costs per income statement
+385,Revenue
+390,Security per income statement
+393,Share of renewable energy used
+394,Share-based payment expense per income statement
+397,Spend on academic staff or academic institutions
+398,"Spend on ALL infrastructure and services investment, development, support of housing, sanitation, energy, telecoms and other community-related needs (consolidated CSI Spend)"
+399,Spend on community health & wellness programmes
+400,Spend on Early Childhood Development Centres (ECD)
+404,Spend on farmer support
+406,Spend on infrastructure development in host communities (workforce)
+407,Spend on infrastructure development in host communities
+414,State royalties per income statement
+418,TB incident rate
+421,Tonnes of carbon dioxide emissions per unit ore milled
+430,Total amount of charitable/voluntary donations and investments
+432,Total expenditure on green investments
+433,Total amount of monetary losses as a result of legal proceedings associated with anticompetitive behavior regulations
+435,Total amount of monetary losses as a result of legal proceedings associated with customer privacy
+439,Total amount of monetary losses as a result of legal proceedings associated with marketing and communication of financial product related information to new and returning customers
+444,Total amount of taxes paid and payable
+445,Total area / size of tailings dam
+448,Total assets as per balance sheet
+449,Total assets under custody and supervision
+451,Total Carbon equivalent emission from coal mining fugitive emissions
+452,Total Carbon equivalent emission from electricity purchased
+453,Total Carbon equivalent emission from fossil fuels
+458,Total compensation of board members (both executive and non-executive directors)
+460,Total cyanide used in the manufacturing process
+461,Total diesel used in energy/electricity generation
+466,Total employee training expenditure
+467,Total employees covered by collective agreements
+468,Total energy consumed
+471,Total energy from renewable fuels consumed
+473,"Total expenditure on activities are intended to reduce prevalence of dust in the atmosphere at sites and around communities, that then reduce health and pollution hazards"
+474,Total expenditure on Emissions Reduction initiatives
+475,Total expenditure on energy conservation initiatives
+476,Total expenditure on environmental awareness projects
+477,Total expenditure on ESD initiatives
+479,Total expenditure on tech development & infrastructure
+480,"Total expenditure on the decommissioning or closure of plants, factories, sites and operational facilities"
+482,"Total expenditure or investment on the optimal and responsible storage, use or disposal of non-mineral waste or by-products"
+483,Total expenditures on exploration activities
+484,Total expenditures on research and development activities
+488,Total fresh water withdrawn
+489,Total water consumed
+490,Total fuel consumed
+491,Total fuel costs- per income statement
+498,"Total hours of health, safety, and emergency response training for contract employees"
+499,"Total hours of health, safety, and emergency response training for full-time employees"
+500,Total hours of training per year
+502,Total investment towards rehabilitating land damaged/disturbed by operations
+504,Total investments in healthcare infrastructure in communities
+506,Total local/BBBEE procurement
+508,Total megawatt hours electricity consumed
+511,Total number of bursaries awarded
+513,Total number of Chronic Obstructive Pulmonary Disease (COAD) cases
+517,Total number of contractors
+523,Total number of employees
+525,Total number of environmental audits conducted
+530,Number of Store Operational Health and Safety Audits
+532,Total number of hours of training on anti-corruption issues
+533,Total number of hours worked
+539,"Total number of investments and loans incorporating integration of environmental, social, and governance (ESG) factors, by industry"
+550,Total number of noise induced hearing loss cases
+554,"Total number of participants in learnerships, internships & apprenticeships"
+555,Total number of patents held
+561,Total number of sanctions against the company
+564,Total number of silicosis cases
+565,"Total number of substantiated complaints received concerning breaches of customer privacy, categorized by complaints from regulatory bodies"
+566,"Total number of substantiated complaints received concerning breaches of customer privacy, categorized by Complaints received from outside parties and substantiated by the organization"
+572,Total petrol used in the manufacturing process
+573,Total planned water discharged
+574,Total potable water used in process
+575,Total procurement spend
+579,Total recordable injury incedence rate (TRIIR)
+582,Total spend in donations
+585,Total spend on approved Social and Labour Plans (SLPs) in host and affected communities
+586,Total spend on community engagements to plan how company assets are to be wound down
+587,Total spend on community health & social welfare initiatives excl. infrastructure investments
+590,Total spend on initiatives &  process to identify & manage risks and opportunities associated with community rights and interests
+592,"Total spend on local, regional or national community development initiatives"
+595,Total spend on waste management initiatives
+596,Total spend on waste/material recycling initiatives
+597,Total spend on waste/material recycling initiatives from mining actvities
+599,Rand Million Value of distributions on behalf of Feed the Nation
+601,Total spend or investment in activities focused on planting new trees or fostering reforestation after production or operational activities have impacted the land area
+602,Total spend or investment in activities focused on restoration and rehabilitation of land after production or operational activities have impacted the land area
+605,Total spend or investment in managing water quality at sites/mines post closure or decomissioning
+606,Total spend or investment in performing audits on the extent to which commitments and regulatory requirements are met
+607,"Total spend or investment in socio-economic development initiatives or programs that aim to support financial inclusion, livelihoods etc"
+608,Total spend or investment in stakeholder development and training programs
+609,"Total spend or investment in the reporting period for graduate development, bursaries or skills development for employees"
+613,Total spend or investment on food waste management initiatives in the reporting period
+615,"Total spend or investment towards accountability, trust & transparency initiatives in the reporting period"
+616,Total spend or investment towards Agriculture projects in the reporting period
+617,Total spend or investment towards anti-corruption activities in reporting period
+619,Total spend or investment towards biodiversity activities reporting period
+620,Total spend or investment towards collective agreement negotiations in the reporting period
+621,Total spend or investment towards Corporate Governance activities in reporting period
+622,Total spend or investment towards COVID Response
+623,Total spend or investment towards Ecosystem services in the reporting period
+627,Total spend or investment towards Energy Management initiatives in the reporting period/s
+628,Total spend or investment towards Energy security in the reporting period/s
+629,Total spend or investment towards Gender-based Violence (GBV) initiatives in reporting period/s
+630,Total spend or investment towards HIV/Aids initiatives in the reporting period/s
+631,Total spend or investment towards human rights activities in the reporting period/s
+632,Total spend or investment towards inclusive decision making initiatives reporting period/s
+638,Total spend or investment towards species management initiatives in the reporting period/s
+639,Total spend or investment towards the treatment of water for the purposes of reusing/recycling it back into the production process and/or back into the ecosystem so as to avoid water wastage
+640,Total spend or investment towards traffic safety in the reporting period/s
+644,Total spend towards ensuring host community has access to clean water & sanitation facilities
+650,Total unregistered assets under management (AUM)
+654,"Total value of investments and loans incorporating integration of environmental, social, and governance (ESG) factors, by industry"
+678,Total weight of mineral processing waste
+679,Total weight of mineral processing waste recycled
+684,Total weight of non-hazardous waste generated
+689,Volume of Waste sent for Recycling (tonnes) – Plastic*
+698,Total weight of tailings waste
+700,Total weight of tailings waste recycled
+703,Total weight of waste incinerated
+704,Total weight of waste directed to rock dump sites
+713,Transport costs per income statement
+716,"Utilities (Elec, Water, Services) as per income statement"
+732,Voluntary turnover rate for all employees
+733,Waste generated
+734,"Waste reused, remanufactured, recycled"
+735,Water recycling and reuse
+736,Water Stress (Water withdrawn with a breakdown by sources)
+737,Water use efficiency (Water use per net value added in the reporting period)
+738,Water use intensity (Water use per saleable production in the reporting period)
+742,Water Intensity (Total Water Consumption per NAV)
+749,GHG Scope 1 emissions + GHG Scope 2 emissions
+750,Number of Board Members
+751,Average hours of training per employee
+753,Value Added (i.e. Revenue - Cost of Sales as per Income Statement)
+757,Total number of incidents of harassment/violence during the reporting period.
+758,"% of products certified by external agencies, % of traceable origin"
+759,A description of the mechanisms and steps taken to ensure privacy and security of consumer data
+760,"A description of: i) the internal and external mechanisms for seeking advice about ethical and lawful behaviour and organizational integrity, and for reporting concerns about unethical or unlawful behaviour and lack of organizational integrity; and ii) the extent to which these mechanisms have been used, and the outcomes of processes using these mechanisms"
+761,An explanation of how the organisation facilitates workers’ access to non-occupational medical and healthcare services and the scope of access provided for employees and workers
+762,An explanation of the assessment performed on suppliers for which the right to freedom of association and collective bargaining is at risk including measures taken by the organisation to address these risks
+763,"Area of land used for the production of basic plant, animal or mineral commodities (e.g. the area of land used for forestry, agriculture or mining activities)."
+764,Average hours of training provided to female employees during the reporting period
+765,Average hours of training provided to junior managers during the reporting period
+766,Average hours of training provided to male employees during the reporting period
+767,Average hours of training provided to mid-level managers during the reporting period
+768,Average hours of training provided to senior managers during the reporting period
+771,"Description on how performance criteria in the remuneration policies relate to the governing body and senior executives’ objectives for economic, environmental and social targets, as connected to the company’s stated purpose, strategy and long-term value."
+772,"Define and report progress against time-bound short, medium and long-term science-based GHG emissions targets (see also the Narrative Disclosure on Metrics, Targets and Performance) that are in line with the goals of the Paris Agreement and Glasgow Climate Pact. This includes reducing global carbon dioxide emissions by 45% by 2030 relative to the 2010 level, and to net zero around mid-century, on the basis of the best available scientific knowledge and equity, taking into account common but differentiated responsibilities and respective capabilities, and in the context of sustainable development and efforts to eradicate poverty. Science-based emissions reduction targets should be informed by recognized methodologies, and verified through approved processes, and should as a minimum be consistent with relevant host country/ies Nationally Determined Contribution."
+773,"Description of products and services that present specific risks to individuals, communities or the environment; an outline of the nature of these risks, and the measures taken to mitigate these."
+774,"Description of significant identified indirect economic impacts of the organisation, including for example: number of jobs supported in supply or distribution chain; number of suppliers / enterprises supported from defined vulnerable groups; nature of economic development in areas of high poverty; availability of products and services for those on low incomes or previously disadvantaged; enhanced skills and knowledge in a professional community or geographic location"
+775,"Description of the organisation's provision for whistleblowing, and the number and nature of issues raised through the whistleblowing facility, and how these were resolved"
+776,"Discuss across the value chain: mechanisms aimed at enhancing management of environmental issues (codes, policies, prevention, and treatment)"
+777,"Discussion of initiatives and stakeholder engagement to improve the broader operating environment and culture, to combat corruption"
+778,Existence and nature of a just transition plan that commits to stakeholder engagement with workers and communities
+779,"Extent of exposure to countries and jurisdictions recognised for their corporate tax rate, tax transparency and tax haven status; estimated tax gap (gap between estimated effective tax rate and estimated statutory tax rate)"
+781,"Identify where material, those issues that are the focus of the company’s participation in public policy development and lobbying, including within any business association that the company is a member of; describe the company’s strategy relevant to these areas of focus; and any differences between its lobbying positions and its purpose, stated policies, goals or other public positions."
+782,Mean pay gap of basic salary and remuneration of full-time relevant employees based on gender (women to men) between black people
+783,Mean pay gap of basic salary and remuneration of full-time relevant employees based on gender (women to men) between coloured people
+784,Mean pay gap of basic salary and remuneration of full-time relevant employees based on gender (women to men) between Indian people
+785,Mean pay gap of basic salary and remuneration of full-time relevant employees based on gender (women to men) between white people
+786,Mean pay gap of basic salary and remuneration of full-time relevant employees based on gender (women to men) other races
+788,"Nature of climate-related lobbying activities, and those of relevant associations and membership groups, and their alignment with the objectives of the Paris Agreement and Glasgow Climate Pact"
+789,Nature of provision for delivery of the transition plan within executive remuneration
+790,Nature of provision for impacts on workers and communities within climate scenario plans
+791,"Number and nature of significant environmental, social and/or governance related incidents, including incidents of legal non-compliance (whether under investigation, pending finalisation, or finalised) and directives, compliance notices, warnings or investigations, and any public controversies"
+792,Number of community grievances.
+794,Number of executive board members
+795,Number of independent board members
+796,Number of non-executive board members
+797,Number of other board positions per board member
+798,"Number of workers in the past year retrained, retrenched, and/or compensated due to implementation of the decarbonisation plan"
+799,Number of years on the Board per Board Member
+800,Operating Cost
+802,"Percentage of employees per employee category, by age: 35 years and above"
+803,"Percentage of employees per employee category, by age: Between 16 years and 35 years"
+804,"Percentage of employees per employee category, by gender: Female"
+805,"Percentage of employees per employee category, by gender: Male"
+806,"Percentage of employees per employee category, by race: Black"
+807,"Percentage of employees per employee category, by race: Coloured"
+808,"Percentage of employees per employee category, by race: Indian"
+809,"Percentage of employees per employee category, by race: Other Race"
+810,"Percentage of employees per employee category, by race: White"
+813,Percentage of materials identified that are covered by a sustainability certification standard or formalized sustainability management programme
+814,Qualitative disclosure describing the extent of significant infrastructure investment and services supported
+815,"Rate of employee turnover during the reporting period, by age group: 35 years and above"
+816,"Rate of employee turnover during the reporting period, by age group: Between 16 years and 35 years"
+817,"Rate of employee turnover during the reporting period, by gender: Female"
+818,"Rate of employee turnover during the reporting period, by gender: Male"
+819,"Rate of new employee hires during the reporting period, by gender: Female"
+820,"Rate of new employee hires during the reporting period, by gender: Male"
+821,"Rate of new employee hires during the reporting period, by age group: 35 years and above"
+822,"Rate of new employee hires during the reporting period, by age group: Between 16 and 35 years"
+823,Ratio of CEO’s total annual compensation to median total annual compensation of all employees (excluding the CEO)
+824,Ratio of temporary workers to permanent workers broken down by gender: Female
+825,Ratio of temporary workers to permanent workers broken down by gender: Male
+826,Ratio of temporary workers to permanent workers broken down by racial group: Black
+827,Ratio of temporary workers to permanent workers broken down by racial group: Coloured
+828,Ratio of temporary workers to permanent workers broken down by racial group: Indian
+829,Ratio of temporary workers to permanent workers broken down by racial group: Other Race
+830,Ratio of temporary workers to permanent workers broken down by racial group: White
+831,Ratio of the basic salary and remuneration of women to men for each employee category: Middle Management
+832,"Ratios of standard entry-level wage by gender : Female, compared to local minimum wage for the sector"
+833,"Ratios of standard entry-level wage by gender: Male, compared to local minimum wage for the sector"
+834,"Ratios of standard entry-level wage by race: Black, compared to the local minimum wage for the sector"
+835,"Ratios of standard entry-level wage by race: Coloured, compared to local minimum wage for the sector"
+836,"Ratios of standard entry-level wage by race: Indian, compared to local minimum wage for the sector"
+837,"Ratios of standard entry-level wage by race: Other race, compared to local minimum wage for the sector"
+838,"Ratios of standard entry-level wage by race: White, compared to local minimum wage for the sector"
+839,Report estimated share (%) of single-use plastic weight of total plastic weight
+840,Report metric tonnes of single-use plastic consumed
+841,"Report wherever material across the value chain, mechanisms aimed at enhancing management of social issues (codes, policies, prevention, and treatment)"
+842,Total amount of political contributions made per political party
+843,"Total number of employee turnover during the reporting period, by age group: 35 years and above"
+844,"Total number of employee turnover during the reporting period, by age group: Between 16 and 35 years"
+845,"Total number of employee turnover during the reporting period, by gender: Female"
+846,"Total number of employee turnover during the reporting period, by gender: Male"
+847,"Total number of new employee hires during the reporting period, by age group: 35 years and above"
+848,"Total number of new employee hires during the reporting period, by age group: Between 16 and 35 years"
+849,"Total number of new employee hires during the reporting period, by gender: Female"
+850,"Total number of new employee hires during the reporting period, by gender: Male"
+851,"Total number of operations that have been subject to human rights reviews or human rights impact assessments, by country."
+852,"Total percentage employees who have received training on the organization’s ethics and anti-corruption policies and procedures, broken down by region."
+853,"Total percentage of business partners who have received training on the organization’s ethics and anti-corruption policies and procedures, broken down by region."
+854,"Total percentage of governance body members who have received training on the organization’s ethics and anti-corruption policies and procedures, broken down by region."
+855,"Total percentage of operations that have been subject to human rights reviews or human rights impact assessments, by country"
+856,Waste intensity (total waste / sales)
+857,Ratio of the basic salary and remuneration of women to men for each employee category: Junior Management
+858,Ratio of the basic salary and remuneration of women to men by race: between Black
+859,Ratio of the basic salary and remuneration of women to men by race: between Whites
+860,Ratio of the basic salary and remuneration of women to men by race: between Coloured
+861,Ratio of the basic salary and remuneration of women to men by race: between Indian
+862,Ratio of the basic salary and remuneration of women to men by race: between Other races
+863,Ratio of the basic salary and remuneration of women to men for each Age Group: 35 years and above
+864,Ratio of the basic salary and remuneration of women to men for each Age Group: Between 16 years and 35 years
+865,"Identify and provide a description on areas within the supply chain considered to have significant risk of incidents of child labour, forced or compulsory labour. Such risks could emerge in relation to type of operation (such as manufacturing plant) and type of supplier, or countries or geographic areas with operations and suppliers considered at risk."
+866,Percentage of revenue from products and services designed to deliver specific social or environmental benefits or to address specific sustainability challenges
+867,Ratio of the basic salary and remuneration of women to men for each employee category: Senior Management
+871,Total number of employees in training
+874,"Total spend or Investment towards poverty reduction services such as education, healthcare, and Infrastructure"
+880,Percentage Reduction in GHG emissions
+882,GHG Intensity (GHG Scope 1 +Scope 2 per Revenue)
+883,Total number of adults in education & training (AET) programmes
+886,"Water withdrawals: Surface water (rain, wetland, river, creek, lake)"
+887,Groundwater-Borehole (geologic formation aquifer) used
+888,Water withdrawals: Municipal water
+889,Water withdrawals: Third Party Supply water
+891,Finance incomE
+905,The Total Rand Million Annual Remuneration of the Highest Paid Employee
+913,Number of the entity’s 25 most common services for which pricing information is publicly available
+914,Discussion of how pricing information for services is made publicly available
+915,Description of policies and practices to manage the number of prescriptions issued for controlled substances
+916,Total amount of monetary losses as a result of legal proceedings associated with controlled substances
+917,Total amount of monetary losses as a result of legal proceedings associated with data security and privacy
+918,Total amount of monetary losses as a result of legal proceedings associated with prescription dispensing errors
+919,Total amount of monetary losses as a result of legal proceedings associated with employment discrimination
+920,Total amount of monetary losses as a result of legal proceedings associated with labor law violations
+921,Number of account holders affected by data breaches in category: PHI
+922,Description of policies and practices to secure customers’ protected health information (PHI) records and other personally identifiable information (PII)
+923,Number of account holders affected by data breaches in category: PII
+924,"Number of customers affected by data breaches in each category, (a) PII"
+925,"Number of customers affected by data breaches in each category, (b) PHI"
+926,Percentage of data breaches involving protected health information (PHI)
+927,Percentage of Number of data breaches involving (b) protected health information (PHI)
+928,Average hourly wage 
+929,"Percentage of in-store employees earning minimum wage, by region"
+930,Percentage of coloured people in non-executive management
+931,"Number of drug recalls issued, total units recalled"
+932,Percentage of controlled substance prescriptions dispensed for which a prescription drug monitoring program (PDMP) database was queried
+933,Percentage of product units recalled that are private-label products
+934,Number of pharmacists
+935,Number of pharmacy locations
+936,Number of prescriptions filled
+937,Percentage of  of prescriptions filled are controlled substances
+938,Total area of retail space
+939,Number of distribution centers
+940,Number of retail locations
+941,Total area of distribution centers
+943,Revenue from products that are third-party certified to environmental and/or social sustainability standards
+944,Percentage of Medical waste landfilled
+945,Percentage of Medical waste recycled or treated
+946,Total amount of medical waste
+947,Percentage non-hazardous waste recycled
+948,Percentage of non-hazardous waste landfilled
+949,Duration (days) of non-technical delays
+953,Fines and sanctions for non-compliance with environmental regulations
+957,Total External carbon tax paid
+962,Total Absolute GHG emissions (scope 1 - 3)
+965,Carbon Intensity: Average Volume of Carbon Emissions per Person Hour Worked (tonnes CO2 e/PHW)
+993,Electricity Efficiency: Average Electricity Consumed per Person Hour Worked (kWh/PHW)
+1035,Number of permanent employees (South African-based)
+1036,Female employees technically-skilled
+1037,Female employees semi-skilled
+1038,Black employees trained
+1039,Female employees trained
+1040,Lost days
+1041,Percentage of non-executive board members
+1042,Percentage of independent board members
+1043,First aid representatives
+1044,Firefighters
+1045,Health and saferty committee members
+1046,Store armed robbery incidents
+1047,High risk cases
+1048,Group Employee Wellness Programme utilisation: Total utilisation rate
+1049,Group Employee Wellness Programme utilisation: managerial services
+1050,Group Employee Wellness Programme utilisation: managerial services (%)
+1051,Total expenditure on ESD initiatives on Companies that have 51% or more black ownership
+1052,Percentage of economic interest of  the  Black Natural Persons in the measured entity
+1053,The net value of shares (as % of total net value)
+1054,Black New Entrants
+1055,Number of unemployed black people absorbed at the end of the leadership programme
+1070,Fines associated with environmental incidents

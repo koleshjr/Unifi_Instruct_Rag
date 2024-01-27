@@ -1,0 +1,366 @@
+AMKEY,Group,ActivityMetric,ClientMetric
+7,Impala,Air emissions of the following pollutants: (2) NOx (excluding N2O),Total indirect Nox
+7,Sasol,Air emissions of the following pollutants: (2) NOx (excluding N2O),Nitrogen oxides (NOx) (kilotons)
+8,Sasol,Air emissions of the following pollutants: (3) SOx,Sulphur oxides (SOx ) (kilotons)
+8,Ssw,Air emissions of the following pollutants: (3) SOx,SO2 emissions
+8,Impala,Air emissions of the following pollutants: (3) SOx,Total direct SO2 + Total indirect SO2
+9,Sasol,Air emissions of the following pollutants: (4) particulate matter (PM10),Particulates (fly ash) (kilotons)
+10,Sasol,Air emissions of the following pollutants: (5)  volatile organic compounds (VOCs),Volatile Organic Compounds (VOC) Indicator of Performance (kilotons)
+12,Tongaat,All Inury Frequency Rate (Injuries/1m hrs worked),Total injury frequency rate (TIFR) – employees and contractors
+27,Ssw,Area of forestland managed by the entity,Land under management
+27,Impala,Area of forestland managed by the entity,Leased and managed land - South Africa
+28,Tongaat,Area of forestland owned,Total – company managed/farmed land (owned and leased)
+29,Ssw,Area of forestland restored and or rehabilitated,Total land rehabilitated
+29,Impala,Area of forestland restored and or rehabilitated,Disturbed areas rehabilitated
+31,Sasol,Area of forestland with protected conservation status,Area dedicated to biodiversity and conservation (hectares)
+46,Absa,"BBBEE procurement spend from Exempt Micro Enterprises (EMEs), Qualifyimg Small Enterprises (QSEs) & Empowering Suppliers that are >51 black owned",Total procurement spend on qualifying small enterprises and exempt micro enterprises(Rbn)
+46,Oceana1&2,"BBBEE procurement spend from Exempt Micro Enterprises (EMEs), Qualifyimg Small Enterprises (QSEs) & Empowering Suppliers that are >51 black owned",51% black-owned suppliers
+47,Oceana1&2,BBBEE procurement spend from Qualifyimg Small Enterprises (QSEs) as a % of total spend,Empowering QSE Suppliers
+49,Sasol,B-BBEE Scorecard Level,B-BBEE verification certificate
+49,Distell,B-BBEE Scorecard Level,B-BBEE level
+49,Oceana1&2,B-BBEE Scorecard Level,B-BBEE level achieved
+49,Tongaat,B-BBEE Scorecard Level,B-BBEE Level
+49,Absa,B-BBEE Scorecard Level,B-BBEE level (South Africa)
+52,Tongaat,Board meeting attendance rate,Overall Board and Committee meeting attendance
+52,Absa,Board meeting attendance rate,Board meeting attendance (%)
+52,Distell,Board meeting attendance rate,Overall board and committee meeting attendance
+53,Ssw,Board members between 30 - 50,younger than 50
+53,Absa,Board members between 30 - 50,Average age 40-49 years
+54,Absa,Board members over 50,Average age 50+
+54,Ssw,Board members over 50,between 50 and 60 + older than 60
+67,Uct1&2,Depreciation as per income statement,Depreciation
+109,Uct1&2,Employee wages and benefits,Personnel
+109,Distell,Employee wages and benefits,"Rand value of total compensation paid to employees, including wages and benefits in South Africa"
+109,Sasol,Employee wages and benefits,Value added statement (unaudited) - Employees
+109,Absa,Employee wages and benefits,Staff costs and benefits (Rbn)
+109,Oceana1&2,Employee wages and benefits,Salaries and employee benefits
+109,Ssw,Employee wages and benefits,Salaries and wages paid
+114,Tongaat,Energy Efficiency (Energy consumption per saleable output),Energy efficiency: total direct and indirect energy consumed per ton of sugar produced
+122,Absa,Fatal injury frequency rate (FIFR),Fatal-injury frequency rate (number of fatalities per 200 000 person hours worked)
+122,Sasol,Fatal injury frequency rate (FIFR),Employee and service provider fatal injury frequency rate
+122,Impala,Fatal injury frequency rate (FIFR),FIFR
+122,Tongaat,Fatal injury frequency rate (FIFR),"Fatal injury frequency rate (FIFR, i.e. number of fatalities per 200 000 person hours worked) – employees and contractors"
+123,Oceana1&2,Fatality rate,Fatality
+124,Uct1&2,Finance cost per income statement,Finance costs
+128,Impala,GHG Scope 1 emissions,Total direct CO2
+128,Uct1&2,GHG Scope 1 emissions,Sub-Total Scope 1
+128,Tongaat,GHG Scope 1 emissions,Carbon emissions – Scope 1
+128,Oceana1&2,GHG Scope 1 emissions,Scope 1 CO2e emissions (direct – fossil fuels/non-renewable) (tonnes)
+128,Absa,GHG Scope 1 emissions,Scope 1
+128,Sasol,GHG Scope 1 emissions,Direct carbon dioxide (CO2 ) Scope 1 (kilotons)
+128,Distell,GHG Scope 1 emissions,Carbon emissions (tonnes CO2 e) – Scope 1
+129,Tongaat,GHG Scope 2 emissions,Carbon emissions – Scope 2
+129,Distell,GHG Scope 2 emissions,Carbon emissions (tonnes CO2 e) – Scope 2
+129,Sasol,GHG Scope 2 emissions,Indirect carbon dioxide (CO2 ) Scope 2 (kilotons)
+129,Oceana1&2,GHG Scope 2 emissions,Scope 2 CO2e emissions (indirect - electricity purchased) (tonnes)
+129,Impala,GHG Scope 2 emissions,Total indirect CO2
+129,Uct1&2,GHG Scope 2 emissions,Sub-Total Scope 2: location-based
+129,Absa,GHG Scope 2 emissions,Scope 2
+130,Absa,GHG Scope 3 emissions,Scope 3
+130,Ssw,GHG Scope 3 emissions,Scope 3
+130,Oceana1&2,GHG Scope 3 emissions,"Scope 3 CO2e emission (indirect, not scope 1 or 2) (tonnes)"
+130,Uct1&2,GHG Scope 3 emissions,Sub-Total Scope 3
+130,Distell,GHG Scope 3 emissions,Carbon emissions (Tonnes CO2 e) – Scope 3
+133,Ssw,Greenhouse Gas (GHG) intensity rate,Emissions intensity (Average of SA Region) - tCO_{2} e/t milled
+133,Absa,Greenhouse Gas (GHG) intensity rate,Intensity ratio
+135,Sasol,Hazardous waste,Hazardous waste (kilotons)
+135,Distell,Hazardous waste,Total volume of hazardous waste disposed (tonnes) – to registered disposal sites
+136,Impala,Hazardous waste recycled,Non-mineral/hazardous waste - Recycled
+136,Ssw,Hazardous waste recycled,"Hazardous waste recycled, reused and treated"
+138,Tongaat,Hazardous waste to legal landfill,Hazardous waste disposed of at appropriate facilities
+138,Ssw,Hazardous waste to legal landfill,Hazardous waste to landfil
+143,Oceana1&2,Infrastructure development in host communities,Infrastructure Development
+151,Impala,Lost-time injury frequency rate (LTIFR),LTIFR (including RWC)
+151,Absa,Lost-time injury frequency rate (LTIFR),Lost-time injury frequency rate (number of lost-time injuries per 200 000 person hours worked) (South Africa)
+151,Ssw,Lost-time injury frequency rate (LTIFR),Lost-time injury frequency rate (LTIFR) (Average of SA Region)
+151,Sasol,Lost-time injury frequency rate (LTIFR),Lost Workday Case Rate (LWDCR)
+151,Distell,Lost-time injury frequency rate (LTIFR),"Lost Time Injury Frequency Rate (LTIFR, i.e., number of LTIs per 200 000 person hours worked) – reported"
+151,Tongaat,Lost-time injury frequency rate (LTIFR),"Lost time injury frequency rate (LTIFR, i.e. number of LTIs per 200 000 person hours worked) – employees and contractors"
+151,Oceana1&2,Lost-time injury frequency rate (LTIFR),Lost Time Injury Frequency Rate
+157,Ssw,Medically treated injury frequency rate (MTIFR),Medically treated injury frequency rate (MTIFR)
+157,Impala,Medically treated injury frequency rate (MTIFR),MTCFR
+163,Sasol,Natural gas consumed,Natural gas (kilotons)
+163,Tongaat,Natural gas consumed,Natural gas used in stationary combustion equipment
+163,Absa,Natural gas consumed,Non-renewable – Gas (kWh)
+169,Sasol,Non-hazardous waste,Non-hazardous waste (kilotons)
+170,Ssw,Non-hazardous waste sent to legal landfill,General waste to landfill
+170,Distell,Non-hazardous waste sent to legal landfill,Total volume of non-hazardous waste disposed (tonnes) – to landfill
+170,Tongaat,Non-hazardous waste sent to legal landfill,Non-hazardous waste sent to landfill
+170,Absa,Non-hazardous waste sent to legal landfill,Waste to landfill (tonnes)
+188,Impala,Number of black people/HDSA  in executive management,Top management - African
+189,Impala,Number of black people/HDSA  in junior management,"Skilled technical and academically qualified workers, junior management, supervisors, foremen and superintendents -  African"
+189,Oceana1&2,Number of black people/HDSA  in junior management,Junior management - Female African
+190,Impala,Number of black people/HDSA  in middle management,Professionally qualified and experienced specialists and mid-management - African
+190,Oceana1&2,Number of black people/HDSA  in middle management,Middle management - African
+191,Impala,Number of black people/HDSA  in senior management,Senior management - African
+191,Oceana1&2,Number of black people/HDSA  in senior management,Senior management - African
+193,Oceana1&2,Number of black women in middle management,Middle management - Female African
+193,Impala,Number of black women in middle management,Professionally qualified and experienced specialists and mid-management - Female African
+194,Impala,Number of black women in executive management,Top management - Female African
+195,Oceana1&2,Number of black women in junior management,Junior management - African
+195,Impala,Number of black women in junior management,"Skilled technical and academically qualified workers, junior management, supervisors, foremen and superintendents - Female African"
+196,Oceana1&2,Number of black women in senior management,Senior management - Female African
+196,Impala,Number of black women in senior management,Senior management - Female African
+213,Tongaat,Number of employees living with disabilities (PwD),Number of employees with disabilities
+213,Distell,Number of employees living with disabilities (PwD),Number of employees who are deemed 'disabled'
+213,Oceana1&2,Number of employees living with disabilities (PwD),TOTAL PERMANENT DISABLED EMPLOYEES
+216,Tongaat,Number of environmental incidents with a negative impact,Environmental incidents – Level 3
+216,Ssw,Number of environmental incidents with a negative impact,Environmental incidents: level 3 and higher
+219,Tongaat,Number of work-related fatalities,"Fatalities (i.e. injuries on duty leading to death, excluding the deaths of workers not occurring “at work”) – employees and contractors"
+219,Distell,Number of work-related fatalities,Number of work-related fatalities (Distell Group)
+219,Sasol,Number of work-related fatalities,Employee and service provider fatalities
+219,Impala,Number of work-related fatalities,Fatalities (employees)
+219,Ssw,Number of work-related fatalities,Fatalities (Average of SA region)
+219,Absa,Number of work-related fatalities,Fatalities
+220,Ssw,Number of female board members,Female
+220,Distell,Number of female board members,Number of board members who are women
+220,Absa,Number of female board members,Women board members
+220,Tongaat,Number of female board members,Female Board members
+226,Ssw,Number of HIV-positive employees undergoing anti-retroviral treatment (ART),Highly-active antiretroviral treatment (HAART) patients on treatment and in active employment N
+226,Tongaat,Number of HIV-positive employees undergoing anti-retroviral treatment (ART),Employees currently receiving company-provided ART (anti-retroviral treatment)
+226,Impala,Number of HIV-positive employees undergoing anti-retroviral treatment (ART),Employees on ART
+236,Distell,Number of lost time injuries for employees,"Number of Lost Time Injuries (LTIs, i.e., injuries on duty leading to at least one lost day)"
+236,Tongaat,Number of lost time injuries for employees,"Lost time injuries (LTIs, i.e. injuries on duty leading to at least one lost day) – employees and contractors"
+236,Impala,Number of lost time injuries for employees,Lost-time injuries
+243,Distell,Number of occupational diseases,Number of reported occupational diseases (South Africa only)
+244,Absa,Number of occupational injuries,Work-related injuries
+244,Distell,Number of occupational injuries,"Total Number of recordable injuries, including MTCs, LTIs and Fatalities – calculated"
+244,Tongaat,Number of occupational injuries,"Total number of recordable Injuries, including MTCs, LTIs and Fatalities – employees and contractors"
+244,Impala,Number of occupational injuries,Reportable injuries
+246,Sasol,Number of employees in/ recipients of leadership training,Number of employees receiving leadership training
+246,Absa,Number of employees in/ recipients of leadership training,External learning programmes - Leadership and management
+268,Uct1&2,Other Income as per income statement,Other operating expenses
+274,Sasol,Penalties/fines or contributions paid,"Fines, penalties and settlements (US$ million)"
+277,Ssw,Percentage hazardous waste recycled,"Percentage hazardous waste recycled, reused and refurbished"
+285,Ssw,Percentage of black people/ HDSA in executive management,Representation (HDP South Africans) - Executive management (Average of SA region)
+286,Ssw,Percentage of black people/ HDSA in junior management,Representation (HDP South Africans) - Junior management (Average of SA region)
+287,Ssw,Percentage of black people/ HDSA in middle management,Representation (HDP South Africans) - Middle management (Average of SA region)
+288,Ssw,Percentage of black people/ HDSA in senior management,Representation (HDP South Africans) - Senior management (Average of SA region)
+289,Tongaat,Percentage of black people/ HDSA in workforce,Percentage of employees who are deemed HDSA (SA only)
+289,Distell,Percentage of black people/ HDSA in workforce,Percentage of employees who are deemed 'HDSA'
+295,Oceana1&2,Percentage of employees covered by collective agreements,Unionised workforce
+295,Distell,Percentage of employees covered by collective agreements,Percentage of employees who belong to a trade union
+295,Absa,Percentage of employees covered by collective agreements,Percentage of staff covered by an independent union or collective bargaining agreements
+295,Tongaat,Percentage of employees covered by collective agreements,Percentage of employees covered by collective bargaining agreements
+298,Distell,Percentage of female board members,Percentage of board members who are women
+298,Ssw,Percentage of female board members,Female directors
+298,Tongaat,Percentage of female board members,Percentage of female Board members.
+311,Oceana1&2,Percentage of local procurement (BEE spend in SA),B-BBEE compliant suppliers
+311,Distell,Percentage of local procurement (BEE spend in SA),Spend with black-owned businesses as a % of total procurement spend (%)
+311,Ssw,Percentage of local procurement (BEE spend in SA),% of total procurement (Average of SA region)
+311,Absa,Percentage of local procurement (BEE spend in SA),Local procurement as a percentage of total (South Africa) (%)
+323,Sasol,Percentage of payroll spent on skills development for black employees through specified learning programmes,Investment in learning as a % of payroll
+338,Tongaat,Percentage of waste recycled,Percentage of waste disposed of that is sent for recycling (or reuse)
+338,Oceana1&2,Percentage of waste recycled,Waste Recycled
+348,Absa,Percentage of women in management,"Employee diversity (%) - Women in junior, middle and senior leadership"
+349,Ssw,Percentage of women in workforce,Women in the workforce / Women in Mining (Average of SA region)
+349,Absa,Percentage of women in workforce,Employee diversity (%) - Total women employees
+349,Distell,Percentage of women in workforce,Percentage of employees who are women
+349,Tongaat,Percentage of women in workforce,Percentage of employees who are women (SA only)
+353,Tongaat,Percentage Renewable Energy,Percentage of energy consumption sourced from renewable fuels
+364,Absa,Procurement from suppliers that are majority black-owned or 30% or more black women-owned,Total procurement spend on >30% black-owned companies (Rbn)
+364,Oceana1&2,Procurement from suppliers that are majority black-owned or 30% or more black women-owned,30% black-owned suppliers
+364,Sasol,Procurement from suppliers that are majority black-owned or 30% or more black women-owned,B-BBEE (RSA only) - Black-owned women spend
+379,Tongaat,Recordable injury frequency rate (RIFR),Total recordable injury frequency rate (TRIFR) – employees and contractors
+379,Ssw,Recordable injury frequency rate (RIFR),Total recordable injury frequency rate (TRIFR) (Average for SA Region)
+379,Sasol,Recordable injury frequency rate (RIFR),Recordable Case Rate (RCR)
+385,Sasol,Revenue,Turnover
+385,Ssw,Revenue,Revenue
+385,Uct1&2,Revenue,Recurrent revenue
+385,Distell,Revenue,Rand value of total revenue generated in South Africa
+398,Distell,"Spend on ALL infrastructure and services investment, development, support of housing, sanitation, energy, telecoms and other community-related needs (consolidated CSI Spend)",Rand value of corporate social investment (CSI) / socioeconomic development (SED) expenditures – reported
+398,Tongaat,"Spend on ALL infrastructure and services investment, development, support of housing, sanitation, energy, telecoms and other community-related needs (consolidated CSI Spend)",Corporate social investment (CSI)/Socio-economic development (SED) expenditures
+398,Oceana1&2,"Spend on ALL infrastructure and services investment, development, support of housing, sanitation, energy, telecoms and other community-related needs (consolidated CSI Spend)","Community development expenditure (SA, US and Namibia)"
+398,Sasol,"Spend on ALL infrastructure and services investment, development, support of housing, sanitation, energy, telecoms and other community-related needs (consolidated CSI Spend)",Social investment (SI) spend - South Africa
+399,Sasol,Spend on community health & wellness programmes,Social Investment Spend - Community health and infrastructure
+399,Distell,Spend on community health & wellness programmes,"Rand value of CSI/SED spend on health, including HIV/AIDS"
+418,Ssw,TB incident rate,"TB rate per 1,000 employees"
+432,Sasol,Total expenditure on green investments,Social Investment Spend - Environment and biodiversity
+432,Tongaat,Total expenditure on green investments,Total Rand value of investments in projects to improve environmental efficiencies
+444,Ssw,"Total amount of taxes paid and payable (encompassing not only income taxes, but also other levies and taxes, such as property taxes or value added taxes) plus related penalties paid, plus all royalties, license fees, and other payments to Government for a given period",Current tax and royalties
+444,Oceana1&2,Total amount of taxes paid and payable,Taxes paid in South Africa and Namibia
+444,Sasol,Total amount of taxes paid and payable,Direct taxes paid to government
+444,Absa,Total amount of taxes paid and payable,Total tax payments
+444,Distell,Total amount of taxes paid and payable,Rand value of total taxation paid in South Africa
+445,Ssw,Total area / size of tailings dam,Total area covered by tailings (ha)
+448,Uct1&2,Total assets as per balance sheet,Total assets
+448,Ssw,Total assets as per balance sheet,Total assets
+458,Distell,Total compensation of board members (both executive and non-executive directors),Total rand value of compensation paid to executive directors – including gains realised from LTIP awards
+460,Ssw,Total cyanide used in the manufacturing process,Cyanide consumption
+466,Distell,Total employee training expenditure,Rand value of employee training spend
+466,Sasol,Total employee training expenditure,Total skills development expenditure (R million)
+466,Absa,Total employee training expenditure,Training spend (Rm)
+466,Impala,Total employee training expenditure,Skills development – SA operations (Rm)
+466,Oceana1&2,Total employee training expenditure,Total investment in skills development
+466,Tongaat,Total employee training expenditure,Value of employee training spend
+466,Ssw,Total employee training expenditure,training and skills development
+468,Oceana1&2,Total energy consumed,Direct/Indirect energy
+468,Sasol,Total energy consumed,Total energy use (thousand gigajoules)
+468,Tongaat,Total energy consumed,Total direct and indirect energy consumption
+468,Absa,Total energy consumed,Total energy use (kWh)
+468,Impala,Total energy consumed,Key production figures – Energy
+468,Distell,Total energy consumed,"Total direct and indirect (i.e., electricity) energy consumption in GJ"
+471,Distell,Total energy from renewable fuels consumed,Total volume of electricity self-generated (MWh) – all sources
+471,Oceana1&2,Total energy from renewable fuels consumed,Electricity purchased from renewable sources (Mwh)
+475,Distell,Total expenditure on energy conservation initiatives,Rand value of investments in projects to improve energy efficiency
+477,Oceana1&2,Total expenditure on ESD initiatives,Enterprise development/Supplier development
+477,Sasol,Total expenditure on ESD initiatives,Social Investment Spend - Enterprise and supplier development
+477,Distell,Total expenditure on ESD initiatives,Total value of E+Scalator Programme + Agri+Gator Programme
+477,Tongaat,Total expenditure on ESD initiatives,Enterprise and supplier development spend (i.e. support for small business)
+484,Ssw,Total expenditures on research and development activities,Research and development
+484,Distell,Total expenditures on research and development activities,Rand value of funds invested in research and development – in South Africa
+488,Impala,Total fresh water withdrawn,Total water withdrawn
+488,Tongaat,Total fresh water withdrawn,Water abstracted – total
+488,Ssw,Total fresh water withdrawn,Total water withdrawn
+489,Impala,Total water consumed,Total water used (water consumption)
+489,Distell,Total water consumed,"Total volume of water consumed (kilolitres, or Kl) – new purchases and/or abstractions (excluding recycled water used)"
+489,Sasol,Total water consumed,Total water use (thousand cubic meters)
+489,Absa,Total water consumed,Water consumption (kilolitres)
+489,Oceana1&2,Total water consumed,WATER CONSUMPTION (KILOLITRES) PER DIVISION
+489,Ssw,Total water consumed,Water used
+489,Tongaat,Total water consumed,Net volume of water consumed
+490,Absa,Total fuel consumed,Non-renewable – Diesel (kWh)
+500,Tongaat,Total hours of training per year,Total number of training hours
+500,Oceana1&2,Total hours of training per year,Total training hours 
+500,Distell,Total hours of training per year,Total number of person hours worked (PHW) – calculated
+500,Absa,Total hours of training per year,Total hours for programmes accessed (m)
+502,Impala,Total investment towards rehabilitating land damaged/disturbed by operations,Rehabilitation provisions
+506,Sasol,Total local/BBBEE procurement,B-BBEE (RSA only) - Black-owned spend
+506,Ssw,Total local/BBBEE procurement,Total BEE procurement spend
+506,Absa,Total local/BBBEE procurement,Total weighted spend with B-BBEE-accredited suppliers (Rbn)
+506,Oceana1&2,Total local/BBBEE procurement,B-BBEE compliant suppliers
+508,Oceana1&2,Total megawatt hours electricity consumed,Electricity purchased (renewable and non-renewable) (MWh)
+508,Absa,Total megawatt hours electricity consumed,Non-renewable – Electricity (kWh)
+508,Tongaat,Total megawatt hours electricity consumed,Volume of electricity consumed – purchased and self-generated
+508,Ssw,Total megawatt hours electricity consumed,Electricity consumed
+508,Impala,Total megawatt hours electricity consumed,Group material consumption Electricity
+508,Distell,Total megawatt hours electricity consumed,Total volume of electricity Consumed (MWh) – purchased + self-generated
+511,Absa,Total number of bursaries awarded,Employee bursaries (number of bursaries)
+511,Sasol,Total number of bursaries awarded,Undergraduate and postgraduate bursars
+513,Sasol,Total number of Chronic Obstructive Pulmonary Disease (COAD) cases,Chronic obstructive airway disease (COAD)
+513,Ssw,Total number of Chronic Obstructive Pulmonary Disease (COAD) cases,Chronic obstructive pulmonary disease
+517,Sasol,Total number of contractors,Non-permanent employees
+517,Oceana1&2,Total number of contractors,Indirect employees
+517,Impala,Total number of contractors,Non-permanent employees
+517,Tongaat,Total number of contractors,Number of contractor (vendors) employees (full time equivalent*)
+523,Ssw,Total number of employees,No. of employees including contractors – total
+523,Tongaat,Total number of employees,Number of employees (full time equivalent)
+523,Oceana1&2,Total number of employees,Direct employees
+523,Distell,Total number of employees,Total number of employees
+523,Absa,Total number of employees,Total number of employees
+523,Impala,Total number of employees,Total permanent employees
+523,Sasol,Total number of employees,Permanent employees
+523,Uct1&2,Total number of employees,Staff
+532,Impala,Total number of hours of training on anti-corruption issues,employee
+533,Oceana1&2,Total number of hours worked,Total number of person hours worked
+533,Tongaat,Total number of hours worked,Number of person hours worked – employees and contractors
+533,Impala,Total number of hours worked,Employee hours worked
+533,Sasol,Total number of hours worked,Total number of person hours worked (million)
+550,Ssw,Total number of noise induced hearing loss cases,Noise-induced hearing loss (NIHL)
+550,Sasol,Total number of noise induced hearing loss cases,Noise-induced hearing loss
+550,Tongaat,Total number of noise induced hearing loss cases,New cases of NIHL* – employees and contractors
+554,Absa,"Total number of participants in learnerships, internships & apprenticeships",Learnerships – to unemployed / Learnerships – to individuals with disabilities / Internships
+555,Tongaat,Total number of patents held,Number of registered patents
+564,Ssw,Total number of silicosis cases,Silicosis
+572,Impala,Total petrol used in the manufacturing process,Group material consumption - Petrol
+573,Tongaat,Total planned water discharged,Water discharged (scheduled and/or non-scheduled effluent and/ or overflows) – total
+574,Sasol,Total potable water used in process,Potable water (thousand cubic meters)
+575,Sasol,Total procurement spend,Preferential procurement from all suppliers
+575,Absa,Total procurement spend,Total procurement spend in South Africa (Rbn)
+579,Impala,Total recordable injury incedence rate (TRIIR),TIFR
+585,Ssw,Total spend on approved Social and Labour Plans (SLPs) in host and affected communities,Social and labour plan (SLP) projects
+587,Oceana1&2,Total spend on community health & social welfare initiatives excl. infrastructure investments,Welfare
+587,Distell,Total spend on community health & social welfare initiatives excl. infrastructure investments,"Rand value of CSI/SED spend on basic needs and social development, including nutrition and/or feeding programmes"
+587,Tongaat,Total spend on community health & social welfare initiatives excl. infrastructure investments,"CSI/SED spend on health, including HIV/AIDS"
+592,Oceana1&2,"Total spend on local, regional or national community development initiatives",Community development
+595,Tongaat,Total spend on waste management initiatives,Investments in projects to improve waste efficiency
+602,Impala,Total spend or investment in activities focused on restoration and rehabilitation of land after production or operational activities have impacted the land area,Current estimate of future rehabilitation costs
+602,Ssw,Total spend or investment in activities focused on restoration and rehabilitation of land after production or operational activities have impacted the land area,Gross rehabilitation liabilities
+607,Tongaat,"Total spend or investment in socio-economic development initiatives or programs that aim to support financial inclusion, livelihoods etc","CSI/SED spend on basic needs and social development, including nutrition and/or feeding programmes"
+607,Ssw,"Total spend or investment in socio-economic development initiatives or programs that aim to support financial inclusion, livelihoods etc",Total socioeconomic development (SED)
+609,Oceana1&2,"Total spend or investment in the reporting period for graduate development, bursaries or skills development for employees",TRAINING SPEND - Bursaries
+609,Sasol,"Total spend or investment in the reporting period for graduate development, bursaries or skills development for employees",Investment in bursary scheme (R million)
+622,Oceana1&2,Total spend or investment towards COVID Response,Food Security (Covid Relief)
+622,Tongaat,Total spend or investment towards COVID Response,"Rand value of investments in COVID-19 avoidance, mitigation and treatment"
+627,Tongaat,Total spend or investment towards Energy Management initiatives in the reporting period/s,Investments in projects to improve energy efficiency
+630,Tongaat,Total spend or investment towards HIV/Aids initiatives in the reporting period/s,Cost of ART**
+639,Tongaat,Total spend or investment towards the treatment of water for the purposes of reusing/recycling it back into the production process and/or back into the ecosystem so as to avoid water wastage,Investments in projects to improve water efficiency
+678,Ssw,Total weight of mineral processing waste,Total mineral waste
+698,Impala,Total weight of tailings waste,Mineral waste - Accumulated tailings
+704,Impala,Total weight of waste directed to rock dump sites,Mineral waste - Accumulated waste rock (on surface)
+732,Impala,Voluntary turnover rate for all employees,Turnover rate (voluntary and involuntary) Average for SA Operations 
+732,Distell,Voluntary turnover rate for all employees,"Employee turnover (i.e., number of persons who departed relative to the total number of employees at year end)"
+732,Absa,Voluntary turnover rate for all employees,Employee turnover
+732,Tongaat,Voluntary turnover rate for all employees,Employee turnover – South Africa
+733,Oceana1&2,Waste generated,WASTE GENERATED (INCLUDING HAZARDOUS WASTE)
+733,Absa,Waste generated,Total waste (tonnes)
+733,Distell,Waste generated,Total volume of all waste generated (tonnes)
+733,Sasol,Waste generated,Total waste (kilotons)
+734,Absa,"Waste reused, remanufactured, recycled",Recycled waste (tonnes)
+734,Oceana1&2,"Waste reused, remanufactured, recycled",Waste recycled
+734,Tongaat,"Waste reused, remanufactured, recycled",Total volume of waste recycled (or reused)
+734,Sasol,"Waste reused, remanufactured, recycled",Recycled waste (kilotons)
+735,Impala,Water recycling and reuse,Total water recycled
+735,Sasol,Water recycling and reuse,Water recycled (thousand cubic meters)
+738,Ssw,Water use intensity (Water use per saleable production in the reporting period),Water use intensity - kl/t treated
+749,Distell,GHG Scope 1 emissions + GHG Scope 2 emissions,Total carbon emissions (tonnes CO2 e) – Scope 1 and 2
+749,Ssw,GHG Scope 1 emissions + GHG Scope 2 emissions,Total CO2e emissions: Scope 1 and 2
+749,Tongaat,GHG Scope 1 emissions + GHG Scope 2 emissions,Total carbon emissions – Scope 1 and 2
+749,Uct1&2,GHG Scope 1 emissions + GHG Scope 2 emissions,Sub-Total Scope 1 & 2
+750,Absa,Number of Board Members,Number of board members
+750,Distell,Number of Board Members,Number of board members
+750,Tongaat,Number of Board Members,Board members
+751,Absa,Average hours of training per employee,Average hours training per person
+753,Impala,Value Added (i.e. Revenue - Cost of Sales as per Income Statement),consumption)
+759,Uct1&2,A description of the mechanisms and steps taken to ensure privacy and security of consumer data,% - UNAIDS (90-90-90)
+763,Sasol,"Area of land used for the production of basic plant, animal or mineral commodities (e.g. the area of land used for forestry, agriculture or mining activities).",Land used for mining (hectare)
+764,Absa,Average hours of training provided to female employees during the reporting period,"Average training hours per person, by gender and by race, including compliance training - Female"
+766,Absa,Average hours of training provided to male employees during the reporting period,"Average training hours per person, by gender and by race, including compliance training - Male"
+794,Distell,Number of executive board members,Number of board members who are deemed executive
+794,Absa,Number of executive board members,Executive directors
+794,Tongaat,Number of executive board members,Executive Board members
+794,Ssw,Number of executive board members,Executive directors
+795,Ssw,Number of independent board members,Independent non-executive directors
+795,Absa,Number of independent board members,Independent non-executive directors
+795,Tongaat,Number of independent board members,Independent Board members
+795,Distell,Number of independent board members,Number of board members who are deemed 'independent'
+796,Ssw,Number of non-executive board members,Independent non-executive directors
+796,Tongaat,Number of non-executive board members,Non-executive Board members
+796,Absa,Number of non-executive board members,Non-executive directors
+796,Distell,Number of non-executive board members,Number of board members who are deemed non-executive
+799,Tongaat,Number of years on the Board per Board Member,Average length of full Board service
+799,Distell,Number of years on the Board per Board Member,Average length of director (full board) service (in years)
+799,Absa,Number of years on the Board per Board Member,Average tenure
+799,Ssw,Number of years on the Board per Board Member,Average tenure at Sibanye-Stillwater
+849,Impala,"Total number of new employee hires during the reporting period, by gender: Female",Number of new appointments/rehires externally - Female
+850,Impala,"Total number of new employee hires during the reporting period, by gender: Male",Number of new appointments/rehires externally - Male
+852,Absa,"Total percentage employees who have received training on the organization’s ethics and anti-corruption policies and procedures, broken down by region.",Employees completing the Absa Way Code of Ethics training (%)
+856,Ssw,Waste intensity (total waste / sales),Waste intensity (tonnes milled/total waste)
+871,Impala,Total number of employees in training,Total number of employees trained (including AET)
+871,Tongaat,Total number of employees in training,"Number of employees trained, including internal and external training interventions"
+871,Oceana1&2,Total number of employees in training,Number of employees who received training
+874,Tongaat,"Total spend or Investment towards poverty reduction services such as education, healthcare, and Infrastructure",CSI/SED spend on education
+874,Oceana1&2,"Total spend or Investment towards poverty reduction services such as education, healthcare, and Infrastructure",Education/Skills development
+874,Distell,"Total spend or Investment towards poverty reduction services such as education, healthcare, and Infrastructure",Rand value of CSI/SED spend on education
+880,Oceana1&2,Percentage Reduction in GHG emissions,Greenhouse gases – Reduction in absolute greenhouse gas emission
+882,Sasol,GHG Intensity (GHG Scope 1 +Scope 2 per Revenue),GHG intensity (CO2 equivalent/ton product meant for external sale)
+882,Uct1&2,GHG Intensity (GHG Scope 1 +Scope 2 per Revenue),tCO2e / capita / annum
+883,Impala,Total number of adults in education & training (AET) programmes,AET training employees
+886,Sasol,"Water withdrawals: Surface water (rain, wetland, river, creek, lake)",River water (thousand cubic meters)
+940,Absa,Number of retail locations,Physical footprint - Branches
+947,Ssw,Percentage non-hazardous waste recycled,"Percentage general waste recycled, reused and refurbished"
+947,Distell,Percentage non-hazardous waste recycled,Percentage of non-hazardous waste that is sent for recycling
+957,Ssw,Total External carbon tax paid,carbon tax expense
+957,Distell,Total External carbon tax paid,Rand value of carbon tax paid
+962,Absa,Total Absolute GHG emissions (scope 1 - 3),Total carbon emissions (tonnes CO_{2} )
+962,Distell,Total Absolute GHG emissions (scope 1 - 3),"Total carbon emissions (tonnes of carbon dioxide equivalents, CO2 e) – Scopes 1, 2 and 3"
+962,Oceana1&2,Total Absolute GHG emissions (scope 1 - 3),"Absolute GHG emissions (Total scope 1, 2 and outside of scopes (other direct emissions))"
+962,Sasol,Total Absolute GHG emissions (scope 1 - 3),Total greenhouse gas (CO2 equivalent) (kilotons)
+962,Uct1&2,Total Absolute GHG emissions (scope 1 - 3),Total Emissions
+1040,Distell,Lost days,Number of lost days (Distell Group)
+1041,Tongaat,Percentage of non-executive board members,Percentage of non-executive Board members
+1041,Distell,Percentage of non-executive board members,Percentage of board members who are deemed non-executive
+1042,Tongaat,Percentage of independent board members,Percentage of independent Board members
+1042,Ssw,Percentage of independent board members,"Independent, non-executive directors"
+1042,Distell,Percentage of independent board members,Percentage of board members who are deemed 'independent'
+1070,Tongaat,Fines associated with environmental incidents,Environmental fines and/or non-compliances
