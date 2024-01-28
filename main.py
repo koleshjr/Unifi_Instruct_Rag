@@ -53,7 +53,7 @@ if __name__ == "__main__":
                 print()
                 
                 answer = retrieval.retrieve_and_generate(embedding_function=embeddings.get_embedding_function(), query=row.query, previous_year_queries_answer_pairs=df_valid[df_valid['ID'].isin([row.ID])]['example'].unique(), template=Config.unifyai_template, llm=llm)
-                print(f"Answer: {answer['answer']} \nReasoning: {answer['reasoning'] }")
+                print(f"Answer: {answer['answer']} \nReasoning: {answer['reasoning']  }") 
                 df_sub.loc[df_sub['ID'] == row.ID, 'Value'] = answer['answer']
                 df_sub.loc[df_sub['ID'] == row.ID, 'Reasoning'] = answer['reasoning']
 

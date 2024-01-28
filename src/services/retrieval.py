@@ -14,7 +14,7 @@ class RagOutput(BaseModel):
     reasoning: str = Field(..., description="reasoning behind the mapping of the answer to the query")
 
 class Retrieval:
-    def __init__(self, vector_store, index_name, top_k: int = 2):
+    def __init__(self, vector_store, index_name, top_k: int = 3):
         load_dotenv()
         self.vector_store = vector_store
         self.index_name = "src/indexes/" + index_name 
@@ -31,7 +31,12 @@ class Retrieval:
         )
 
         if self.vector_store == 'chroma':
-            vector_index = Chroma(persist_directory = self.index_name, embedding_function = embedding_function).as_retriever(search_kwargs = {"k": self.top_k})
+            vector_index = Chroma(persist_directory = self.index_name, embedding_function = embedding_function).as_retriever(
+            search_type="similarity_score_threshold",
+            search_kwargs={
+                "k": self.top_k,
+                "score_threshold": 0.5,
+            },)
         elif self.vector_store == 'milvus':
             vector_index = Milvus(embedding_function, connection_args = {"host": os.getenv('MILVUS_HOST'), "port": os.getenv('MILVUS_PORT'), "collection_name": self.index_name}).as_retriever(search_kwargs = {"k": self.top_k})
 

@@ -73,18 +73,6 @@ class Config:
 
     Output format:
         Answer the user query .\n{format_instructions}
-
-   
-
-
-
-
-
-
-
-
-
-
 """
 
   
