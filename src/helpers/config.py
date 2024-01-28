@@ -2,7 +2,7 @@ class Config:
   # data configs
   folder_path = "src/data/"
   validation_filepath = "src/Competition_data\Train.csv"
-  submission_filepath = "src/Competition_data\SampleSubmission.csv"
+  submission_filepath = "src/competition_data/SampleSubmission.csv"
   synonyms_filepath = "src/Competition_data\ActivityMetricsSynonyms.csv"
   standard_filepath = "src/Competition_data\AMKEY_GoldenStandard.csv"
 
@@ -32,13 +32,49 @@ class Config:
         5. If you are not sure of the answer then just return a 0 but for each query there is an answer. So try your best to map the answer to the query but do not
         make up an answer that is not in the retrieved contexts kindly return a 0 if you are not sure of the answer.
 
+    Company_specific rules: MUST FOLLOW!!!
+    Distell:
+        If:
+            The company is Distell.
+            The retrieved context contains a 2022 value for Distell.
+            There's no space between the query and the value.
+        Then:
+
+            Remove the first number (from the left) of the value.
+            Return the remaining numbers.
+        Examples:
+
+            Input:  "Number of lost days (Distell Group)1161 127 550"
+
+            Output:  "161 127 550"
+
+            Input:  "Number of work-related fatalities (Distell Group)10 1 0"
+
+            Output:  "0 1 0"
+
+    Impala:
+        If:
+            The company is Impala.
+            The retrieved context contains a 2022 value for Impala rustenburg, Impala refineries, Marula
+        
+        Then:
+            Return the aggregate sum of the 2022 values for Impala rustenburg, Impala refineries, Marula
+            That represents the total value for Impala
+
+    Ssw:
+        If:
+            The company is Ssw.
+            The retrieved context has a 2022 value for SA operations pgm and gold
+        Then:
+            Only focus on the SA operations pgm and gold values
+            Return the aggregate sum of the 2022 values for SA operations pgm and gold
+            That represents the total value for Ssw 
+
 
     Output format:
-        {
-            prev_years_reasoning: "reasoning behind the mapping of the previous year queries answer pairs",
-            answer: "answer to the query",
-            reasoning: "reasoning behind the mapping of the answer to the query",
-        }
+        Answer the user query .\n{format_instructions}
+
+   
 
 
 
