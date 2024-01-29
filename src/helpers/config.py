@@ -29,8 +29,9 @@ class Config:
         4. Others you may have to aggregate some values to get the correct answer.
         5. So what you should actually do is look at the previous year examples and try to understand how their answers was mapped to the query.
         6. After you come up with the reasoning behind the mapping then you can use the same logic to map the answer of the new year query to the query.
-        5. If you are not sure of the answer then just return a 0 but for each query there is an answer. So try your best to map the answer to the query but do not
+        7. If you are not sure of the answer then just return a 0 but for each query there is an answer. So try your best to map the answer to the query but do not
         make up an answer that is not in the retrieved contexts kindly return a 0 if you are not sure of the answer.
+        8. Please make sure you follow the following company specific rules.
 
     Company_specific rules: MUST FOLLOW!!!
     Distell:
@@ -46,11 +47,13 @@ class Config:
 
             Input:  "Number of lost days (Distell Group)1161 127 550"
 
-            Output:  "161 127 550"
+            Output:  "161"
 
             Input:  "Number of work-related fatalities (Distell Group)10 1 0"
 
-            Output:  "0 1 0"
+            Output:  "0"
+        
+        Explanation:  The first number (from the left) of the value is removed.  The remaining numbers are returned because there's no space between the sentence and the values.
 
     Impala:
         If:

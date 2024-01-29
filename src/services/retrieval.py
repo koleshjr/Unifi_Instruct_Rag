@@ -9,9 +9,7 @@ from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.pydantic_v1 import BaseModel, Field
 
 class RagOutput(BaseModel):
-    prev_years_reasoning: str = Field(..., description="reasoning behind the mapping of the previous year queries answer pairs")
     answer: float = Field(..., description="answer to the query which is a float")
-    reasoning: str = Field(..., description="reasoning behind the mapping of the answer to the query")
 
 class Retrieval:
     def __init__(self, vector_store, index_name, top_k: int = 3):
