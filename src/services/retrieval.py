@@ -2,7 +2,7 @@ import os
 from typing import Optional
 from operator import itemgetter
 from dotenv import load_dotenv
-from langchain_community.vectorstores import Chroma, Milvus
+from langchain_community.vectorstores import Chroma, Milvus, FAISS
 from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough, RunnableParallel 
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
@@ -27,7 +27,7 @@ class Retrieval:
         parser = JsonOutputParser(pydantic_object=RagOutput)
         custom_rag_prompt = PromptTemplate(template = template, 
                                            input_variables = ["query", "context", "previous_year_queries_answer_pairs"],
-                                        #    partial_variables = {"format_instructions": parser.get_format_instructions()},
+                                           partial_variables = {"format_instructions": parser.get_format_instructions()},
         )
 
         if self.vector_store == 'chroma':
@@ -40,6 +40,8 @@ class Retrieval:
         elif self.vector_store == 'milvus':
             vector_index = Milvus(embedding_function, connection_args = {"host": os.getenv('MILVUS_HOST'), "port": os.getenv('MILVUS_PORT'), "collection_name": self.index_name}).as_retriever(search_kwargs = {"k": self.top_k})
 
+        elif self.vector_store == 'faiss':
+            vector_index = FAISS.load_local(self.index_name, embedding_function).as_retriever(search_kwargs = {"k": self.top_k})
         if not with_sources:
             rag_chain = (
                 {"context": itemgetter("query") | vector_index,
@@ -48,8 +50,8 @@ class Retrieval:
                 }
                 | custom_rag_prompt
                 | llm 
-                # | parser
-                | StrOutputParser()
+                | parser
+                # | StrOutputParser()
             )
             return rag_chain.invoke({"query": query, "previous_year_queries_answer_pairs": previous_year_queries_answer_pairs})
         
@@ -58,8 +60,8 @@ class Retrieval:
                 RunnablePassthrough.assign(context = (lambda x: self.format_docs(x["context"])))
                 | custom_rag_prompt
                 | llm
-                # | parser
-                | StrOutputParser()
+                | parser
+                # | StrOutputParser()
             )
 
 

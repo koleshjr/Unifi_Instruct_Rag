@@ -1,6 +1,6 @@
 import os 
 from dotenv import load_dotenv
-from langchain_community.vectorstores import Chroma, Milvus
+from langchain_community.vectorstores import Chroma, Milvus, FAISS
 
 class VectorStore:
     def __init__(self, vector_store: str, index_name: str):
@@ -15,6 +15,10 @@ class VectorStore:
         elif self.vector_store == 'milvus':
             vector_index = Milvus.from_documents(docs, embedding_function, connection_args = {"host": os.getenv('MILVUS_HOST'), "port": os.getenv('MILVUS_PORT'), "collection_name": self.index_name})
             return vector_index.persist()
+        elif self.vector_store == 'faiss':
+            vector_index = FAISS.from_documents(docs, embedding_function)
+            return vector_index.save_local(self.index_name)
+
             
         else:
             raise Exception("Invalid vector store we currently support only chroma and milvus")

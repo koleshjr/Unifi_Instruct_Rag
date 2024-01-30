@@ -54,8 +54,10 @@ if __name__ == "__main__":
                 
                 answer = retrieval.retrieve_and_generate(embedding_function=embeddings.get_embedding_function(), query=row.query, previous_year_queries_answer_pairs=df_valid[df_valid['ID'].isin([row.ID])]['example'].unique(), template=Config.unifyai_template, llm=llm)
                 print(f"Answer: {answer}") 
-                df_sub.loc[df_sub['ID'] == row.ID, 'Value'] = answer
+                df_sub.loc[df_sub['ID'] == row.ID, 'Value'] = answer['answer']
                 # df_sub.loc[df_sub['ID'] == row.ID, 'Reasoning'] = answer['reasoning']
+                df_sub.to_csv('src/data/sub_test_mistral.csv', index=False)
+                df_sub[['ID', 'Value']].fillna(0).to_csv('src/data/sub_submit_mistral.csv', index=False)
 
 
                 print("<--------------------------------------------------------------------------------------->")
@@ -63,6 +65,5 @@ if __name__ == "__main__":
             print(f"Error: {e} in row: {row}")
         
 
-    df_sub.to_csv('src/data/sub_test.csv', index=False)
-    df_sub[['ID', 'Value']].fillna(0).to_csv('src/data/sub_submit.csv', index=False)
+
         
