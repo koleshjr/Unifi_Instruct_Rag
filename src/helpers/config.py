@@ -72,7 +72,9 @@ class Config:
 
 
     Output format:
-        Answer the user query .\n{format_instructions}
+       You must Answer the user query in the following format: If no answer then return a 0.
+         Answer: "the extracted value which must be in float format"
+        Do not add other unnecessary information in the answer just the extracted float value and you must adhere to this
 """
 
   

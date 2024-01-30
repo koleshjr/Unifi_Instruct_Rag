@@ -2,6 +2,7 @@ import os
 from typing import Optional
 from langchain_openai import ChatOpenAI, OpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAI
+from langchain_mistralai.chat_models import ChatMistralAI
 from dotenv import load_dotenv
 
 class Llms:
@@ -15,6 +16,9 @@ class Llms:
             return ChatOpenAI(model= self.model_name, openai_api_key=os.getenv('OPENAI_API_KEY'))
         elif self.model_provider == 'google':
             return ChatGoogleGenerativeAI(model = self.model_name, google_api_key=os.getenv('GOOGLE_API_KEY'))
+        elif self.model_provider == 'mistral':
+            return ChatMistralAI(mistral_api_key=os.getenv('MISTRAL_API_KEY'))
+
         else:
             raise Exception("Invalid model provider we currently support only openai and google models")
         

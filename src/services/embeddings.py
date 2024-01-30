@@ -1,5 +1,6 @@
 import os 
 from langchain_openai import OpenAIEmbeddings
+from langchain_mistralai import MistralAIEmbeddings
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 
@@ -13,7 +14,8 @@ class Embeddings:
             return OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
         elif self.embedding_provider == 'google':
             return GoogleGenerativeAIEmbeddings(model = 'models/embedding-001', google_api_key=os.getenv('GOOGLE_API_KEY'))
-        
+        elif self.embedding_provider == 'mistral':
+            return MistralAIEmbeddings(mistral_api_key=os.getenv('MISTRAL_API_KEY'))
         else:
-            raise Exception("Invalid embedding provider we currently support only openai and google embeddings")
+            raise Exception("Invalid embedding provider we currently support only openai, google and mistral models")
         
