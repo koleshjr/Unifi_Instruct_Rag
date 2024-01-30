@@ -50,9 +50,10 @@ if __name__ == "__main__":
                 print("<--------------------------------------------------------------------------------------->")
                 print(f"Query: {row.query}")
                 print(f"Prev_query_answer_pair: {df_valid[df_valid['ID'].isin([row.ID])]['example'].unique()}")
+                formatted_examples = "\n\n".join(df_valid[df_valid['ID'].isin([row.ID])]['example'].unique())
                 print()
                 
-                answer = retrieval.retrieve_and_generate(embedding_function=embeddings.get_embedding_function(), query=row.query, previous_year_queries_answer_pairs=df_valid[df_valid['ID'].isin([row.ID])]['example'].unique(), template=Config.unifyai_template, llm=llm)
+                answer = retrieval.retrieve_and_generate(embedding_function=embeddings.get_embedding_function(), query=row.query, previous_year_queries_answer_pairs=formatted_examples, template=Config.unifyai_template, llm=llm)
                 print(f"Answer: {answer['answer']}") 
                 df_sub.loc[df_sub['ID'] == row.ID, 'Value'] = answer['answer']
 

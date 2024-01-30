@@ -2,7 +2,7 @@ import os
 from typing import Optional
 from operator import itemgetter
 from dotenv import load_dotenv
-from langchain_community.vectorstores import Chroma, Milvus
+from langchain_community.vectorstores import Chroma, Milvus, FAISS
 from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough, RunnableParallel 
 from langchain_core.output_parsers import JsonOutputParser
@@ -21,7 +21,7 @@ class Retrieval:
     def format_docs(self, docs):
         return "\n\n".join(doc.page_content for doc in docs)
     
-    def retrieve_and_generate(self, embedding_function: str, query: str, previous_year_queries_answer_pairs: list, template: str, llm: str, with_sources: bool = False):
+    def retrieve_and_generate(self, embedding_function: str, query: str, previous_year_queries_answer_pairs: str, template: str, llm: str, with_sources: bool = False):
         parser = JsonOutputParser(pydantic_object=RagOutput)
         custom_rag_prompt = PromptTemplate(template = template, 
                                            input_variables = ["query", "context", "previous_year_queries_answer_pairs"],
@@ -37,6 +37,8 @@ class Retrieval:
             },)
         elif self.vector_store == 'milvus':
             vector_index = Milvus(embedding_function, connection_args = {"host": os.getenv('MILVUS_HOST'), "port": os.getenv('MILVUS_PORT'), "collection_name": self.index_name}).as_retriever(search_kwargs = {"k": self.top_k})
+        elif self.vector_store == 'faiss':
+            vector_index = FAISS.load_local(self.index_name, embedding_function).as_retriever(search_kwargs = {"k": self.top_k})
 
         if not with_sources:
             rag_chain = (

@@ -12,71 +12,50 @@ class Config:
   
   # unify instruct template
   unifyai_template = """
-    You are a very helpful assistant trained to extract key value metrics from text and answer user queries based on retrived information.
-    You can access and process data from multiple years and you make sure each year value is correctly mapped.
+
+    You are a data extraction assistant specialized in answering user queries by retrieving key metrics from pieces of retrieved contexts. \n
+    Your goal is to ensure accurate mapping of values, considering company-specific rules. \n
 
     Query: {query}
     Retrieved Contexts: {context}
-    previous year queries answer pairs: 
+    Previous Year Queries & Answer Pairs:
         {previous_year_queries_answer_pairs}
+    Company-Specific Rules (Enclosed in Backticks):
 
-    Task:
-        1. Carefully read the query and the retrieved contexts.
-        2. Use the previous year examples to guide you in mapping the answer to the query paying attention to the units and the order of magnitude.
-        3. Also make sure you do a chain of thought analysis to make sure you are not missing any information since other information 
-        might be stored in a table that has been splitted to text that is not in a table format. So you need to understand the splitted
-        text , reconstruct the table and then answer the query.
-        4. Others you may have to aggregate some values to get the correct answer.
-        5. So what you should actually do is look at the previous year examples and try to understand how their answers was mapped to the query.
-        6. After you come up with the reasoning behind the mapping then you can use the same logic to map the answer of the new year query to the query.
-        7. If you are not sure of the answer then just return a 0 but for each query there is an answer. So try your best to map the answer to the query but do not
-        make up an answer that is not in the retrieved contexts kindly return a 0 if you are not sure of the answer.
-        8. Please make sure you follow the following company specific rules.
+        ```
+        Distell:
+            If the company is Distell and 2022 value is present in the context:
+                Remove the leftmost digit and return the remaining value for 2022.
+                Examples:
+                    Context: "Number of lost days (Distell Group)1161 127 550"
+                    Output: "161"
+                    Context: "Number of work-related fatalities (Distell Group)10 1 0"
+                    Output: "0"
 
-    Company_specific rules: MUST FOLLOW!!!
-    Distell:
-        If:
-            The company is Distell.
-            The retrieved context contains a 2022 value for Distell.
-            There's no space between the query and the value.
-        Then:
+        Impala:
+            If the company is Impala and 2022 values are present for specified locations:
+                extract the 2022 values for Impala rustenburg, Impala refineries, Marula.
+                return the aggregate sum of the 2022 values for Impala rustenburg, Impala refineries, Marula.
 
-            Remove the first number (from the left) of the value.
-            Return the remaining numbers.
-        Examples:
+        Ssw:
+            If the company is Ssw and 2022 values are present for SA operations pgm and gold:
+                extract the 2022 values for SA operations pgm and gold.
+                Return the aggregate sum of the 2022 values for SA operations pgm and gold.
+        ```
 
-            Input:  "Number of lost days (Distell Group)1161 127 550"
+    Task Instructions:
+        1. Read and understand the query, context, and company rules.
+        2. Analyze previous year queries and answers to understand how values were extracted.
+        3. Repeat step 2 to identify patterns in answer extraction.
+        4. Generate rules based on understanding from step 3.
+        5. Follow company-specific rules, extract and confirm the answer's magnitude and units.
+        6. If necessary, align the answer to the same magnitude and units as the previous year's answer.
+        7. If unable to extract, return 0 to avoid providing inaccurate answers.
 
-            Output:  "161"
+    Output Format:
+        Answer the user query.\n{format_instructions}
+    """
 
-            Input:  "Number of work-related fatalities (Distell Group)10 1 0"
-
-            Output:  "0"
-        
-        Explanation:  The first number (from the left) of the value is removed.  The remaining numbers are returned because there's no space between the sentence and the values.
-
-    Impala:
-        If:
-            The company is Impala.
-            The retrieved context contains a 2022 value for Impala rustenburg, Impala refineries, Marula
-        
-        Then:
-            Return the aggregate sum of the 2022 values for Impala rustenburg, Impala refineries, Marula
-            That represents the total value for Impala
-
-    Ssw:
-        If:
-            The company is Ssw.
-            The retrieved context has a 2022 value for SA operations pgm and gold
-        Then:
-            Only focus on the SA operations pgm and gold values
-            Return the aggregate sum of the 2022 values for SA operations pgm and gold
-            That represents the total value for Ssw 
-
-
-    Output format:
-        Answer the user query .\n{format_instructions}
-"""
 
   
 
