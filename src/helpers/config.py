@@ -1,10 +1,10 @@
 class Config:
   # data configs
   folder_path = "src/data/"
-  validation_filepath = "src/Competition_data\Train.csv"
+  validation_filepath = "src/competition_data/Train.csv"
   submission_filepath = "src/competition_data/SampleSubmission.csv"
-  synonyms_filepath = "src/Competition_data\ActivityMetricsSynonyms.csv"
-  standard_filepath = "src/Competition_data\AMKEY_GoldenStandard.csv"
+  synonyms_filepath = "src/competition_data/ActivityMetricsSynonyms.csv"
+  standard_filepath = "src/competition_data/AMKEY_GoldenStandard.csv"
 
   # processed data configs
   df_valid_path = "src/data/df_valid.csv"
@@ -23,7 +23,7 @@ class Config:
     Pay attention to the following Company-Specific Rules (Enclosed in Backticks):
 
         ```
-       if the query has the company distell and the retrived context sentence has no space between the values just after the company name: /n
+       if the query has the name distell and the retrived context sentence has no space between the values just after (Distell Group): /n
                 Remove the leftmost digit and return the remaining value for 2022. 
                 Examples: 
                     Context: "Number of lost days (Distell Group)1161 127 550" 
