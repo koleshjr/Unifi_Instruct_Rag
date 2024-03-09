@@ -9,9 +9,8 @@ from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
 from langchain_core.pydantic_v1 import BaseModel, Field
 
 class RagOutput(BaseModel):
-    # prev_years_reasoning: str = Field(..., description="reasoning behind the mapping of the previous year queries answer pairs")
-    answer: float = Field(..., description="answer to the query which is a float")
-    # reasoning: str = Field(..., description="reasoning behind the mapping of the answer to the query")
+    value_2022: float = Field(..., description="extracted 2022 value which is a float")
+
 
 class Retrieval:
     def __init__(self, vector_store, index_name, top_k: int = 3):
@@ -23,10 +22,10 @@ class Retrieval:
     def format_docs(self, docs):
         return "\n\n".join(doc.page_content for doc in docs)
     
-    def retrieve_and_generate(self, embedding_function: str, query: str, previous_year_queries_answer_pairs: list, template: str, llm: str, with_sources: bool = False):
+    def retrieve_and_generate(self, embedding_function: str, query: str, value_2019, value_2020, value_2021, template: str, llm: str, with_sources: bool = False):
         parser = JsonOutputParser(pydantic_object=RagOutput)
         custom_rag_prompt = PromptTemplate(template = template, 
-                                           input_variables = ["query", "context", "previous_year_queries_answer_pairs"],
+                                           input_variables = ["question", "context", "value_2019", "value_2020", "value_2021"],
                                            partial_variables = {"format_instructions": parser.get_format_instructions()},
         )
 
@@ -45,15 +44,17 @@ class Retrieval:
         if not with_sources:
             rag_chain = (
                 {"context": itemgetter("query") | vector_index,
-                "query": itemgetter("query"),
-                "previous_year_queries_answer_pairs": itemgetter("previous_year_queries_answer_pairs"),
+                "question": itemgetter("query"),
+                "value_2019": itemgetter("value_2019"),
+                "value_2020": itemgetter("value_2020"),
+                "value_2021": itemgetter("value_2021"),
                 }
                 | custom_rag_prompt
                 | llm 
                 | parser
                 # | StrOutputParser()
             )
-            return rag_chain.invoke({"query": query, "previous_year_queries_answer_pairs": previous_year_queries_answer_pairs})
+            return rag_chain.invoke({"query": query, "value_2019":value_2019, "value_2020":value_2020, "value_2021":value_2021})
         
         else:
             rag_chain_from_docs = (
@@ -68,12 +69,14 @@ class Retrieval:
             rag_chain_with_source = RunnableParallel(
 
                 {"context": itemgetter("query") | vector_index,
-                 "query": itemgetter("query"),
-                 "previous_year_queries_answer_pairs": itemgetter("previous_year_queries_answer_pairs"),
+                 "question": itemgetter("query"),
+                "value_2019": itemgetter("value_2019"),
+                "value_2020": itemgetter("value_2020"),
+                "value_2021": itemgetter("value_2021"),
                 }
 
             ).assign(answer = rag_chain_from_docs)
 
-            return rag_chain_with_source.invoke({"query": query, "previous_year_queries_answer_pairs": previous_year_queries_answer_pairs})
+            return rag_chain_with_source.invoke({"question": query,"value_2019":value_2019, "value_2020":value_2020, "value_2021":value_2021})
 
         

@@ -2,6 +2,7 @@ import os
 from langchain_openai import OpenAIEmbeddings
 from langchain_mistralai import MistralAIEmbeddings
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from dotenv import load_dotenv
 
 class Embeddings:
@@ -16,6 +17,14 @@ class Embeddings:
             return GoogleGenerativeAIEmbeddings(model = 'models/embedding-001', google_api_key=os.getenv('GOOGLE_API_KEY'))
         elif self.embedding_provider == 'mistral':
             return MistralAIEmbeddings(mistral_api_key=os.getenv('MISTRAL_API_KEY'))
+        elif self.embedding_provider == 'huggingface':
+            model_name = "BAAI/bge-small-en"
+            model_kwargs = {"device": "cpu"}
+            encode_kwargs = {"normalize_embeddings": True}
+            hf = HuggingFaceBgeEmbeddings(
+                model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs
+            )
+            return hf
         else:
-            raise Exception("Invalid embedding provider we currently support only openai, google and mistral models")
+            raise Exception("Invalid embedding provider we currently support only openai, google, mistral and huggingface")
         
