@@ -1680,10 +1680,10 @@ ID,Value
 295_X_Ssw,0.0
 295_X_Uct1&2,0.0
 298_X_Absa,0.0
-298_X_Clicks,0.0
+298_X_Clicks,36.0
 298_X_Impala,0.0
 298_X_Oceana1&2,0.0
-298_X_Picknpay,0.0
+298_X_Picknpay,35.7
 298_X_Sasol,0.0
 298_X_Uct1&2,0.0
 29_X_Absa,0.0
@@ -1705,7 +1705,7 @@ ID,Value
 300_X_Tongaat,0.0
 300_X_Uct1&2,0.0
 302_X_Absa,0.0
-302_X_Clicks,0.0
+302_X_Clicks,61.1
 302_X_Distell,0.0
 302_X_Impala,0.0
 302_X_Oceana1&2,0.0
@@ -1935,7 +1935,7 @@ ID,Value
 348_X_Ssw,0.0
 348_X_Tongaat,0.0
 348_X_Uct1&2,0.0
-349_X_Clicks,0.0
+349_X_Clicks,61.1
 349_X_Impala,0.0
 349_X_Oceana1&2,0.0
 349_X_Picknpay,0.0
@@ -2210,7 +2210,7 @@ ID,Value
 421_X_Oceana1&2,0.0
 421_X_Picknpay,0.0
 421_X_Sasol,0.0
-421_X_Ssw,0.0
+421_X_Ssw,0.17
 421_X_Tongaat,0.0
 421_X_Uct1&2,0.0
 42_X_Absa,0.0
@@ -2354,7 +2354,7 @@ ID,Value
 453_X_Tongaat,0.0
 453_X_Uct1&2,0.0
 458_X_Absa,0.0
-458_X_Clicks,0.0
+458_X_Clicks,7570818.181818182
 458_X_Impala,0.0
 458_X_Oceana1&2,0.0
 458_X_Picknpay,0.0
@@ -2381,7 +2381,7 @@ ID,Value
 461_X_Ssw,0.0
 461_X_Tongaat,0.0
 461_X_Uct1&2,0.0
-466_X_Clicks,0.0
+466_X_Clicks,60054599.66
 466_X_Picknpay,0.0
 466_X_Uct1&2,0.0
 467_X_Absa,0.0
@@ -2394,14 +2394,14 @@ ID,Value
 467_X_Ssw,0.0
 467_X_Tongaat,0.0
 467_X_Uct1&2,0.0
-468_X_Clicks,0.0
+468_X_Clicks,34611.0
 468_X_Picknpay,0.0
 468_X_Ssw,0.0
 468_X_Uct1&2,0.0
-46_X_Clicks,0.0
+46_X_Clicks,2299304491.0
 46_X_Distell,0.0
 46_X_Impala,0.0
-46_X_Picknpay,0.0
+46_X_Picknpay,2299304491.0
 46_X_Sasol,0.0
 46_X_Ssw,0.0
 46_X_Tongaat,0.0
@@ -2523,8 +2523,8 @@ ID,Value
 488_X_Picknpay,0.0
 488_X_Sasol,0.0
 488_X_Uct1&2,0.0
-489_X_Clicks,0.0
-489_X_Picknpay,0.0
+489_X_Clicks,34.611
+489_X_Picknpay,34.611
 489_X_Uct1&2,0.0
 48_X_Absa,0.0
 48_X_Clicks,0.0
@@ -2575,7 +2575,7 @@ ID,Value
 499_X_Ssw,0.0
 499_X_Tongaat,0.0
 499_X_Uct1&2,0.0
-49_X_Clicks,0.0
+49_X_Clicks,5.0
 49_X_Impala,0.0
 49_X_Picknpay,0.0
 49_X_Ssw,0.0
@@ -2608,7 +2608,7 @@ ID,Value
 506_X_Clicks,0.0
 506_X_Distell,0.0
 506_X_Impala,0.0
-506_X_Picknpay,0.0
+506_X_Picknpay,52000000000.0
 506_X_Tongaat,0.0
 506_X_Uct1&2,0.0
 508_X_Clicks,0.0
@@ -2616,7 +2616,7 @@ ID,Value
 508_X_Sasol,0.0
 508_X_Uct1&2,0.0
 50_X_Absa,0.0
-50_X_Clicks,0.0
+50_X_Clicks,56.0
 50_X_Distell,0.0
 50_X_Impala,0.0
 50_X_Oceana1&2,0.0
@@ -2669,10 +2669,10 @@ ID,Value
 525_X_Ssw,0.0
 525_X_Tongaat,0.0
 525_X_Uct1&2,0.0
-52_X_Clicks,0.0
+52_X_Clicks,93.7
 52_X_Impala,0.0
 52_X_Oceana1&2,0.0
-52_X_Picknpay,0.0
+52_X_Picknpay,95.1
 52_X_Sasol,0.0
 52_X_Ssw,0.0
 52_X_Uct1&2,0.0
@@ -3384,7 +3384,7 @@ ID,Value
 716_X_Ssw,0.0
 716_X_Tongaat,0.0
 716_X_Uct1&2,0.0
-732_X_Clicks,0.0
+732_X_Clicks,9.2
 732_X_Oceana1&2,0.0
 732_X_Picknpay,0.0
 732_X_Sasol,0.0
@@ -3825,13 +3825,13 @@ ID,Value
 795_X_Clicks,0.0
 795_X_Impala,0.0
 795_X_Oceana1&2,0.0
-795_X_Picknpay,0.0
+795_X_Picknpay,11.0
 795_X_Sasol,0.0
 795_X_Uct1&2,0.0
 796_X_Clicks,0.0
 796_X_Impala,0.0
 796_X_Oceana1&2,0.0
-796_X_Picknpay,0.0
+796_X_Picknpay,6.0
 796_X_Sasol,0.0
 796_X_Uct1&2,0.0
 797_X_Absa,0.0
@@ -3879,7 +3879,7 @@ ID,Value
 800_X_Tongaat,0.0
 800_X_Uct1&2,0.0
 802_X_Absa,0.0
-802_X_Clicks,0.0
+802_X_Clicks,39.0
 802_X_Distell,0.0
 802_X_Impala,0.0
 802_X_Oceana1&2,0.0
@@ -4029,7 +4029,7 @@ ID,Value
 818_X_Tongaat,0.0
 818_X_Uct1&2,0.0
 819_X_Absa,0.0
-819_X_Clicks,0.0
+819_X_Clicks,49.8
 819_X_Distell,0.0
 819_X_Impala,0.0
 819_X_Oceana1&2,0.0
@@ -4881,7 +4881,7 @@ ID,Value
 934_X_Tongaat,0.0
 934_X_Uct1&2,0.0
 935_X_Absa,0.0
-935_X_Clicks,0.0
+935_X_Clicks,673.0
 935_X_Distell,0.0
 935_X_Impala,0.0
 935_X_Oceana1&2,0.0
@@ -4940,7 +4940,7 @@ ID,Value
 93_X_Ssw,0.0
 93_X_Tongaat,0.0
 93_X_Uct1&2,0.0
-940_X_Clicks,0.0
+940_X_Clicks,898.0
 940_X_Distell,0.0
 940_X_Impala,0.0
 940_X_Oceana1&2,0.0
@@ -4990,7 +4990,7 @@ ID,Value
 945_X_Tongaat,0.0
 945_X_Uct1&2,0.0
 946_X_Absa,0.0
-946_X_Clicks,0.0
+946_X_Clicks,119.055
 946_X_Distell,0.0
 946_X_Impala,0.0
 946_X_Oceana1&2,0.0
@@ -5065,7 +5065,7 @@ ID,Value
 965_X_Distell,0.0
 965_X_Impala,0.0
 965_X_Oceana1&2,0.0
-965_X_Picknpay,0.0
+965_X_Picknpay,13.3
 965_X_Sasol,0.0
 965_X_Ssw,0.0
 965_X_Tongaat,0.0
@@ -5095,7 +5095,7 @@ ID,Value
 993_X_Distell,0.0
 993_X_Impala,0.0
 993_X_Oceana1&2,0.0
-993_X_Picknpay,0.0
+993_X_Picknpay,8.6
 993_X_Sasol,0.0
 993_X_Ssw,0.0
 993_X_Tongaat,0.0
