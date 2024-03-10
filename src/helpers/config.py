@@ -28,14 +28,19 @@ class Config:
 
     # unify instruct template
     unifyai_template = """
-    You are a very helpful assistant trained to extract key value metrics of companies from retrieved context.
+    You are a very helpful assistant trained to extract key value metrics of companies from retrieved context by following company specific rules and ensuring correct value magnitude based on previous years value magnitude.
     You can access and process data from multiple years and you make sure each year value is correctly mapped.
+    Previous yearly values are provided to you to ensure you consider the magnitudes of the values from 2019, 2020, and 2021 to correctly extract the accurate 2022 value.
 
-    Query: {query}
+
+    Query: {question}
     Retrieved Contexts: {context}
-    previous year queries answer pairs: 
-        {previous_year_queries_answer_pairs}
-    Here are company specific rules to help you answer enclosed in backticks
+    2019 Value: {value_2019}
+    2020 Value: {value_2020}
+    2021 Value: {value_2021}
+    
+
+    Below enclosed in backticks are company specific rules that you must follow to help you extract the correct 2022 value
         ```` Distell:
             If:
                 The company is Distell.
@@ -74,15 +79,20 @@ class Config:
         ````
 
     Task:
-    0. Perform a chain of thought analysis. Take your time to internalize the rules, context and query to give very very accurate answers.
-    1. Carefully read the query and the retrieved contexts and understand both of them.
-    2. Look at the queries in the previous year examples and try to answer them based on the retrieved contexts and the company specific rules.
-    3. Is your answer same as the one in the previous year examples? If no try to understand where you went wrong.
-    4. Try to answer the previous year queries using the understanding of where you went wrong in the previous step.
-    5. Repeat step 3 and 4 until you are able to answer the previous year queries correctly.
-    6. After you are able to answer the previous year queries correctly then you can use the same logic to answer the new year query putting into consideration the below company specific rules.\
+    0. Perform a chain of thought analysis. Take your time to internalize the rules, context and question to give very very accurate answers.
+    1. Carefully read the query, the retrieved context and the company specific rules.
+    2. You must follow the company specific rules
+    3. Look at the 2019, 2020 and 2021 values to understand the magnitude of the values and how these previous values were extracted.
+    4. Have you understood how they were extracted? if yes continue else repeat until you understand how they were extracted.
+    5. After you have understood the process and magnitude, then you can use the same logic to extract the 2022 value in the same magnitude as the previous years
+    6. You must make sure the magnitude of 2022 value is exactly as the 2019,2020,2021 values.
     7. If you are not sure of the answer then just return a 0 but for each query there is an answer. So try your best to map the answer to the query.
-    8 But do not make up an answer that is not in the retrieved contexts kindly return a 0 if you are not sure of the answer.
+    8. But do not make up an answer that is not in the retrieved contexts kindly return a 0 if you are not sure of the answer.
+
+    Post extraction:
+        is the extracted answer following the company specific rules? 
+        is the answer in the same magnitude as the previous years values?
+        If not then do the necessary changes and once all these considerations are fulfilled proceed to give the correct answer
 
     Output format:
         Answer the user query .\n{format_instructions}

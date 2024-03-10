@@ -38,10 +38,10 @@ class DocumentLoader:
                         company_name = file
 
                     loader = PyPDFLoader(file_path=file_path)
-                    pages = loader.load()
+                    pages = loader.load_and_split()
                     pages_with_str = [doc.page_content for doc in pages]
                     texts = text_splitter.create_documents(pages_with_str, metadatas=[{"company_name": company_name, "source": file} for _ in pages_with_str])
-                    docs.extend(texts)
+                    docs.extend(pages)
             except Exception as e:
                 print(f"Error loading file {file} with error {e}") 
 

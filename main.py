@@ -57,7 +57,7 @@ if __name__ == "__main__":
                     value_2019=row['2019_Value'],
                     value_2020=row['2020_Value'],
                     value_2021=row['2021_Value'],
-                    template=Config.unifyai_improved_template,
+                    template=Config.unifyai_template,
                     llm=llm
                 )
                 print(f"Answer: {answer}")
