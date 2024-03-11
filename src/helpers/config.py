@@ -35,7 +35,7 @@ class Config:
     2019 Value: {value_2019}
     2020 Value: {value_2020}
     2021 Value: {value_2021}
-    
+    2022 Value: ?
 
     Pay attention to the following Company-Specific Rules (Enclosed in Backticks):
 
@@ -68,8 +68,8 @@ class Config:
             8. If unable to extract, return 0 to avoid providing inaccurate answers. \n
 
         Post extraction:
-            is the extracted answer following the company specific rules? 
-            is the answer in the same magnitude as the previous years values?
+            is the 2022 value following the company specific rules? 
+            is the 2022 value in the same magnitude as the previous years values namely: {value_2019} , {value_2020} and {value_2021}?
             If not then do the necessary changes and once all these considerations are fulfilled proceed to give the correct answer
 
         Output format:
