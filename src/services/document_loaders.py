@@ -1,6 +1,6 @@
 import os 
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain.docstore.document import Document
 
 class DocumentLoader:
     def __init__(self):
@@ -8,12 +8,6 @@ class DocumentLoader:
 
     def load_and_get_text(self, folder_path: str):
         docs = []
-        text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1024,
-            chunk_overlap=64,
-            length_function=len,
-            is_separator_regex=False,
-        )
         for file in os.listdir(folder_path):
             try:
                 if file.endswith(".pdf"):
@@ -26,7 +20,7 @@ class DocumentLoader:
                         company_name = 'oceana1&2'
                     elif 'sasol' in file.lower():
                         company_name = 'sasol'
-                    elif 'ESG-spreads' in file.lower():
+                    elif 'ESG-spreads' in file:
                         company_name = 'impala'
                     elif 'clicks' in file.lower():
                         company_name = 'clicks'
@@ -40,12 +34,17 @@ class DocumentLoader:
                     loader = PyPDFLoader(file_path=file_path)
                     pages = loader.load_and_split()
                     pages_with_str = [doc.page_content for doc in pages]
-                    texts = text_splitter.create_documents(pages_with_str, metadatas=[{"company_name": company_name, "source": file} for _ in pages_with_str])
-                    docs.extend(pages)
+                    for page in pages_with_str:
+                        doc = Document(
+                                page_content=page,
+                                metadata={
+                                    "source": file,
+                                    "company_name": company_name,
+                                }
+                            )
+                        docs.append(doc)
+ 
             except Exception as e:
                 print(f"Error loading file {file} with error {e}") 
 
         return docs
-
-                
-

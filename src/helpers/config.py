@@ -11,9 +11,8 @@ class Config:
     sub_path = "src/data/sub.csv"
 
     unifyai_improved_template = """
-    You are an assistant tasked with accurately retrieving the key metric value for the year 2022 from provided document information. 
-
-    Your task involves receiving a question, a set of retrieved contexts, and previous yearly values. You need to extract the 2022 value while considering the magnitudes of the values from 2019, 2020, and 2021 to avoid confusion.
+    You are a data extraction assistant specialized in answering user queries by retrieving key metrics from pieces of retrieved contexts. \n
+    Your goal is to ensure accurate mapping of values, considering company-specific rules. \n
 
     Question: {question}
     Retrieved Context: {context}
@@ -28,10 +27,8 @@ class Config:
 
     # unify instruct template
     unifyai_template = """
-    You are a very helpful assistant trained to extract key value metrics of companies from retrieved context by following company specific rules and ensuring correct value magnitude based on previous years value magnitude.
-    You can access and process data from multiple years and you make sure each year value is correctly mapped.
-    Previous yearly values are provided to you to ensure you consider the magnitudes of the values from 2019, 2020, and 2021 to correctly extract the accurate 2022 value.
-
+    You are a data extraction assistant specialized in answering user queries by retrieving key metrics from pieces of retrieved contexts. \n
+    Your goal is to ensure accurate mapping of values, and you must follow company-specific rules. \n
 
     Query: {question}
     Retrieved Contexts: {context}
@@ -40,63 +37,44 @@ class Config:
     2021 Value: {value_2021}
     
 
-    Below enclosed in backticks are company specific rules that you must follow to help you extract the correct 2022 value
-        ```` Distell:
-            If:
-                The company is Distell.
-                There's no space between the query and the value.
-            Then:
+    Pay attention to the following Company-Specific Rules (Enclosed in Backticks):
 
-                Remove the first number (from the left) of the value.
-                Return the remaining numbers.
-            Examples:
+            ```
+        if the query has the name distell and the retrived context sentence has no space between the values just after (Distell Group): /n
+                    Remove the leftmost digit and return the remaining value for 2022. 
+                    Examples: 
+                        Context: "Number of lost days (Distell Group)1161 127 550" 
+                        Output: "161" 
+                        Context: "Number of work-related fatalities (Distell Group)10 1 0" 
+                        Output: "0" 
 
-                Input:  "Number of lost days (Distell Group)1161 127 550"
+            if the query has the companies impala rustenburg, impala refineries, marula: 
+                    extract the 2022 values for Impala rustenburg, Impala refineries, Marula. 
+                    return the aggregate sum of the 2022 values for Impala rustenburg, Impala refineries, Marula. 
 
-                Output:  "161 127 550"
+            if the query has the company ssw : 
+                    extract the 2022 values for SA operations pgm and gold. 
+                    Return the aggregate sum of the 2022 values for SA operations pgm and gold. 
+            ```
 
-                Input:  "Number of work-related fatalities (Distell Group)10 1 0"
+        Task Instructions:
+            1. Read and understand the query, context, and company rules. \n
+            2. Analyze previous year queries and answers to understand how values were extracted. \n
+            3. Repeat step 2 to identify patterns in answer extraction. \n
+            4. Generate rules based on understanding from step 3. \n
+            5. Follow company-specific rules, extract and confirm the answer's magnitude and units. \n
+            6. Is the answer in the same magnitude and units as the previous year's answer? if yes, return the answer else go to step 7. \n
+            7. If necessary, align the answer to the same magnitude and units as the previous year's answer. \n
+            8. If unable to extract, return 0 to avoid providing inaccurate answers. \n
 
-                Output:  "0 1 0"
+        Post extraction:
+            is the extracted answer following the company specific rules? 
+            is the answer in the same magnitude as the previous years values?
+            If not then do the necessary changes and once all these considerations are fulfilled proceed to give the correct answer
 
-        Impala:
-            If:
-                The company is Impala.
-                The retrieved context values for Impala rustenburg, Impala refineries, Marula
-            
-            Then:
-                Return the aggregate sum of the 2022 values for Impala rustenburg, Impala refineries, Marula
-                That represents the total value for Impala
-
-        Ssw:
-            If:
-                The company is Ssw.
-                The retrieved context contains values for SA operations pgm and gold
-            Then:
-                Only focus on the SA operations pgm and gold values
-                Return the aggregate sum of the 2022 values for SA operations pgm and gold
-                That represents the total value for Ssw  the user query:
-        ````
-
-    Task:
-    0. Perform a chain of thought analysis. Take your time to internalize the rules, context and question to give very very accurate answers.
-    1. Carefully read the query, the retrieved context and the company specific rules.
-    2. You must follow the company specific rules
-    3. Look at the 2019, 2020 and 2021 values to understand the magnitude of the values and how these previous values were extracted.
-    4. Have you understood how they were extracted? if yes continue else repeat until you understand how they were extracted.
-    5. After you have understood the process and magnitude, then you can use the same logic to extract the 2022 value in the same magnitude as the previous years
-    6. You must make sure the magnitude of 2022 value is exactly as the 2019,2020,2021 values.
-    7. If you are not sure of the answer then just return a 0 but for each query there is an answer. So try your best to map the answer to the query.
-    8. But do not make up an answer that is not in the retrieved contexts kindly return a 0 if you are not sure of the answer.
-
-    Post extraction:
-        is the extracted answer following the company specific rules? 
-        is the answer in the same magnitude as the previous years values?
-        If not then do the necessary changes and once all these considerations are fulfilled proceed to give the correct answer
-
-    Output format:
-        Answer the user query .\n{format_instructions}
-    """
+        Output format:
+            Answer the user query .\n{format_instructions}
+        """
 
 
     unify_new_template ="""
