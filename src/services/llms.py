@@ -5,7 +5,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAI
 from dotenv import load_dotenv
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
-
 class Llms:
     def __init__(self, model_provider: str, model_name: Optional[str] = None):
         load_dotenv()
@@ -16,11 +15,19 @@ class Llms:
         if self.model_provider == 'openai':
             return ChatOpenAI(model= self.model_name, openai_api_key=os.getenv('OPENAI_API_KEY'))
         elif self.model_provider == 'google':
-            return ChatGoogleGenerativeAI(model = self.model_name, google_api_key=os.getenv('GOOGLE_API_KEY'))
+            return ChatGoogleGenerativeAI(model = self.model_name, google_api_key=os.getenv('GOOGLE_API_KEY'), safety_settings={
+                HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+                HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+                HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+                HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE
+            })
+        elif self.model_provider == 'azure':
+            return AzureOpenAI(deployment_name = "gpt-35-turbo", model_name = "gpt-3.5-turbo-1106")
         else:
-            raise Exception("Invalid model provider we currently support only openai and google models")
+            raise Exception("Invalid model provider we currently support only openai, azure and google models")
         
     def get_llm(self):
+        print(self.model_provider)
         if self.model_provider == 'openai':
             return OpenAI(model= self.model_name, openai_api_key=os.getenv('OPENAI_API_KEY'))
         elif self.model_provider == 'google':
@@ -30,7 +37,8 @@ class Llms:
                 HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
                 HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE
             })
+        
         elif self.model_provider == 'azure':
-            return AzureOpenAI(deployment_name = "'gpt-35-turbo")
+            return AzureOpenAI(deployment_name = "gpt-35-turbo")
         else:
-            raise Exception("Invalid model provider we currently support only openai and google models")
+            raise Exception("Invalid model provider we currently support only openai, azure and google models")
