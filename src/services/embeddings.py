@@ -1,7 +1,8 @@
 import os 
-from langchain_openai import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings, AzureOpenAIEmbeddings
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+
 from dotenv import load_dotenv
 
 class Embeddings:
@@ -22,6 +23,8 @@ class Embeddings:
                 model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs
             )
             return hf
+        elif self.embedding_provider == 'azure':
+            return AzureOpenAIEmbeddings(azure_deployment = "gpt_35_experiment", openai_api_version = "2023-05-15")
         else:
             raise Exception("Invalid embedding provider we currently support only openai and google embeddings")
         

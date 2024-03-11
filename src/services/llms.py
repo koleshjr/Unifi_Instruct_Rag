@@ -4,6 +4,7 @@ from langchain_openai import ChatOpenAI, OpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAI
 from dotenv import load_dotenv
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
+from langchain_openai import AzureOpenAI
 
 class Llms:
     def __init__(self, model_provider: str, model_name: Optional[str] = None):
@@ -29,5 +30,8 @@ class Llms:
                 HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
                 HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE
             })
+        elif self.model_provider == 'azure':
+            return AzureOpenAI(deployment_name = self.model_name)
+        
         else:
             raise Exception("Invalid model provider we currently support only openai and google models")

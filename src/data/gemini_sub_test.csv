@@ -10,19 +10,19 @@ ID,query,Value
 109_X_Distell,"Rand value of total compensation paid to employees, including wages and benefits in South Africa in Distell in the year 2022?",0.0
 109_X_Oceana1&2,Salaries and employee benefits in Oceana1&2 in the year 2022?,0.0
 109_X_Sasol,Value added statement (unaudited) - Employees in Sasol in the year 2022?,0.0
-109_X_Ssw,Salaries and wages paid in Ssw for SA Operations PGM and Gold in the year 2022?,33544000000.0
+109_X_Ssw,Salaries and wages paid in Ssw for SA Operations PGM and Gold in the year 2022?,35491000000.0
 109_X_Uct1&2,Personnel in Uct1&2 in the year 2022?,0.0
 10_X_Sasol,Volatile Organic Compounds (VOC) Indicator of Performance (kilotons) in Sasol in the year 2022?,13420.0
 114_X_Tongaat,Energy efficiency: total direct and indirect energy consumed per ton of sugar produced in Tongaat in the year 2022?,0.0
 122_X_Absa,Fatal-injury frequency rate (number of fatalities per 200 000 person hours worked) in Absa in the year 2022?,0.0
-122_X_Impala,"FIFR for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.06866666666666667
+122_X_Impala,"FIFR for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 122_X_Sasol,Employee and service provider fatal injury frequency rate in Sasol in the year 2022?,0.0
 122_X_Tongaat,"Fatal injury frequency rate (FIFR, i.e. number of fatalities per 200 000 person hours worked) – employees and contractors in Tongaat in the year 2022?",0.0
 123_X_Oceana1&2,Fatality in Oceana1&2 in the year 2022?,0.0
 124_X_Uct1&2,Finance costs in Uct1&2 in the year 2022?,0.0
 128_X_Absa,Scope 1 in Absa in the year 2022?,0.0
 128_X_Distell,Carbon emissions (tonnes CO2 e) – Scope 1 in Distell in the year 2022?,76173.0
-128_X_Impala,"Total direct CO2 for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",498569.0
+128_X_Impala,"Total direct CO2 for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",454801.0
 128_X_Oceana1&2,Scope 1 CO2e emissions (direct – fossil fuels/non-renewable) (tonnes) in Oceana1&2 in the year 2022?,154577.0
 128_X_Sasol,Direct carbon dioxide (CO2 ) Scope 1 (kilotons) in Sasol in the year 2022?,54999.0
 128_X_Tongaat,Carbon emissions – Scope 1 in Tongaat in the year 2022?,0.0
@@ -38,10 +38,10 @@ ID,query,Value
 130_X_Absa,Scope 3 in Absa in the year 2022?,0.0
 130_X_Distell,Carbon emissions (Tonnes CO2 e) – Scope 3 in Distell in the year 2022?,320431.0
 130_X_Oceana1&2,"Scope 3 CO2e emission (indirect, not scope 1 or 2) (tonnes) in Oceana1&2 in the year 2022?",72232.0
-130_X_Ssw,Scope 3 in Ssw for SA Operations PGM and Gold in the year 2022?,1117000.0
+130_X_Ssw,Scope 3 in Ssw for SA Operations PGM and Gold in the year 2022?,3113700.0
 130_X_Uct1&2,Sub-Total Scope 3 in Uct1&2 in the year 2022?,0.0
 133_X_Absa,Intensity ratio in Absa in the year 2022?,4.37
-133_X_Ssw,Emissions intensity (Average of SA Region) - tCO_{2} e/t milled in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
+133_X_Ssw,Emissions intensity (Average of SA Region) - tCO_{2} e/t milled in Ssw for SA Operations PGM and Gold in the year 2022?,0.125
 135_X_Distell,Total volume of hazardous waste disposed (tonnes) – to registered disposal sites in Distell in the year 2022?,0.0
 135_X_Sasol,Hazardous waste (kilotons) in Sasol in the year 2022?,277000.0
 136_X_Impala,"Non-mineral/hazardous waste - Recycled for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
@@ -51,15 +51,15 @@ ID,query,Value
 143_X_Oceana1&2,Infrastructure Development in Oceana1&2 in the year 2022?,0.0
 151_X_Absa,Lost-time injury frequency rate (number of lost-time injuries per 200 000 person hours worked) (South Africa) in Absa in the year 2022?,0.36
 151_X_Distell,"Lost Time Injury Frequency Rate (LTIFR, i.e., number of LTIs per 200 000 person hours worked) – reported in Distell in the year 2022?",0.69
-151_X_Impala,"LTIFR (including RWC) for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",4.96
+151_X_Impala,"LTIFR (including RWC) for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",5.44
 151_X_Oceana1&2,Lost Time Injury Frequency Rate in Oceana1&2 in the year 2022?,0.0
 151_X_Sasol,Lost Workday Case Rate (LWDCR) in Sasol in the year 2022?,0.13
-151_X_Ssw,Lost-time injury frequency rate (LTIFR) (Average of SA Region) in Ssw for SA Operations PGM and Gold in the year 2022?,5.54
+151_X_Ssw,Lost-time injury frequency rate (LTIFR) (Average of SA Region) in Ssw for SA Operations PGM and Gold in the year 2022?,5.76
 151_X_Tongaat,"Lost time injury frequency rate (LTIFR, i.e. number of LTIs per 200 000 person hours worked) – employees and contractors in Tongaat in the year 2022?",0.0
 157_X_Impala,"MTCFR for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
-157_X_Ssw,Medically treated injury frequency rate (MTIFR) in Ssw for SA Operations PGM and Gold in the year 2022?,0.54
+157_X_Ssw,Medically treated injury frequency rate (MTIFR) in Ssw for SA Operations PGM and Gold in the year 2022?,1.06
 163_X_Absa,Non-renewable – Gas (kWh) in Absa in the year 2022?,34423152.0
-163_X_Sasol,Natural gas (kilotons) in Sasol in the year 2022?,2945700.0
+163_X_Sasol,Natural gas (kilotons) in Sasol in the year 2022?,2927700.0
 163_X_Tongaat,Natural gas used in stationary combustion equipment in Tongaat in the year 2022?,0.0
 169_X_Sasol,Non-hazardous waste (kilotons) in Sasol in the year 2022?,0.0
 170_X_Absa,Waste to landfill (tonnes) in Absa in the year 2022?,193.0
@@ -87,7 +87,7 @@ ID,query,Value
 216_X_Tongaat,Environmental incidents – Level 3 in Tongaat in the year 2022?,0.0
 219_X_Absa,Fatalities in Absa in the year 2022?,0.0
 219_X_Distell,Number of work-related fatalities (Distell Group) in Distell in the year 2022?,0.0
-219_X_Impala,"Fatalities (employees) for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",9.0
+219_X_Impala,"Fatalities (employees) for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",3.0
 219_X_Sasol,Employee and service provider fatalities in Sasol in the year 2022?,0.0
 219_X_Ssw,Fatalities (Average of SA region) in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 219_X_Tongaat,"Fatalities (i.e. injuries on duty leading to death, excluding the deaths of workers not occurring “at work”) – employees and contractors in Tongaat in the year 2022?",0.0
@@ -96,10 +96,10 @@ ID,query,Value
 220_X_Ssw,Female in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 220_X_Tongaat,Female Board members in Tongaat in the year 2022?,0.0
 226_X_Impala,"Employees on ART for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
-226_X_Ssw,Highly-active antiretroviral treatment (HAART) patients on treatment and in active employment N in Ssw for SA Operations PGM and Gold in the year 2022?,10508.0
+226_X_Ssw,Highly-active antiretroviral treatment (HAART) patients on treatment and in active employment N in Ssw for SA Operations PGM and Gold in the year 2022?,14620.0
 226_X_Tongaat,Employees currently receiving company-provided ART (anti-retroviral treatment) in Tongaat in the year 2022?,0.0
 236_X_Distell,"Number of Lost Time Injuries (LTIs, i.e., injuries on duty leading to at least one lost day) in Distell in the year 2022?",31.0
-236_X_Impala,"Lost-time injuries for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",482.0
+236_X_Impala,"Lost-time injuries for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",480.0
 236_X_Tongaat,"Lost time injuries (LTIs, i.e. injuries on duty leading to at least one lost day) – employees and contractors in Tongaat in the year 2022?",0.0
 243_X_Distell,Number of reported occupational diseases (South Africa only) in Distell in the year 2022?,226.0
 244_X_Absa,Work-related injuries in Absa in the year 2022?,43.0
@@ -112,11 +112,11 @@ ID,query,Value
 274_X_Sasol,"Fines, penalties and settlements (US$ million) in Sasol in the year 2022?",0.0
 277_X_Ssw,"Percentage hazardous waste recycled, reused and refurbished in Ssw for SA Operations PGM and Gold in the year 2022?",0.0
 27_X_Impala,"Leased and managed land - South Africa for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
-27_X_Ssw,Land under management in Ssw for SA Operations PGM and Gold in the year 2022?,70803.0
-285_X_Ssw,Representation (HDP South Africans) - Executive management (Average of SA region) in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
-286_X_Ssw,Representation (HDP South Africans) - Junior management (Average of SA region) in Ssw for SA Operations PGM and Gold in the year 2022?,50.2
-287_X_Ssw,Representation (HDP South Africans) - Middle management (Average of SA region) in Ssw for SA Operations PGM and Gold in the year 2022?,39.18
-288_X_Ssw,Representation (HDP South Africans) - Senior management (Average of SA region) in Ssw for SA Operations PGM and Gold in the year 2022?,41.3
+27_X_Ssw,Land under management in Ssw for SA Operations PGM and Gold in the year 2022?,280.0
+285_X_Ssw,Representation (HDP South Africans) - Executive management (Average of SA region) in Ssw for SA Operations PGM and Gold in the year 2022?,34.9
+286_X_Ssw,Representation (HDP South Africans) - Junior management (Average of SA region) in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
+287_X_Ssw,Representation (HDP South Africans) - Middle management (Average of SA region) in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
+288_X_Ssw,Representation (HDP South Africans) - Senior management (Average of SA region) in Ssw for SA Operations PGM and Gold in the year 2022?,40.4
 289_X_Distell,Percentage of employees who are deemed 'HDSA' in Distell in the year 2022?,75.0
 289_X_Tongaat,Percentage of employees who are deemed HDSA (SA only) in Tongaat in the year 2022?,0.0
 28_X_Tongaat,Total – company managed/farmed land (owned and leased) in Tongaat in the year 2022?,0.0
@@ -147,11 +147,11 @@ ID,query,Value
 364_X_Oceana1&2,30% black-owned suppliers in Oceana1&2 in the year 2022?,0.0
 364_X_Sasol,B-BBEE (RSA only) - Black-owned women spend in Sasol in the year 2022?,0.0
 379_X_Sasol,Recordable Case Rate (RCR) in Sasol in the year 2022?,0.0
-379_X_Ssw,Total recordable injury frequency rate (TRIFR) (Average for SA Region) in Ssw for SA Operations PGM and Gold in the year 2022?,6.69
+379_X_Ssw,Total recordable injury frequency rate (TRIFR) (Average for SA Region) in Ssw for SA Operations PGM and Gold in the year 2022?,7.355
 379_X_Tongaat,Total recordable injury frequency rate (TRIFR) – employees and contractors in Tongaat in the year 2022?,0.0
 385_X_Distell,Rand value of total revenue generated in South Africa in Distell in the year 2022?,28107327885.0
 385_X_Sasol,Turnover in Sasol in the year 2022?,0.0
-385_X_Ssw,Revenue in Ssw for SA Operations PGM and Gold in the year 2022?,84490000000.0
+385_X_Ssw,Revenue in Ssw for SA Operations PGM and Gold in the year 2022?,71665000000.0
 385_X_Uct1&2,Recurrent revenue in Uct1&2 in the year 2022?,0.0
 398_X_Distell,Rand value of corporate social investment (CSI) / socioeconomic development (SED) expenditures – reported in Distell in the year 2022?,69967969.0
 398_X_Oceana1&2,"Community development expenditure (SA, US and Namibia) in Oceana1&2 in the year 2022?",1111170.19
@@ -159,7 +159,7 @@ ID,query,Value
 398_X_Tongaat,Corporate social investment (CSI)/Socio-economic development (SED) expenditures in Tongaat in the year 2022?,0.0
 399_X_Distell,"Rand value of CSI/SED spend on health, including HIV/AIDS in Distell in the year 2022?",1987562.0
 399_X_Sasol,Social Investment Spend - Community health and infrastructure in Sasol in the year 2022?,177000000.0
-418_X_Ssw,"TB rate per 1,000 employees in Ssw for SA Operations PGM and Gold in the year 2022?",5.72
+418_X_Ssw,"TB rate per 1,000 employees in Ssw for SA Operations PGM and Gold in the year 2022?",10.09
 432_X_Sasol,Social Investment Spend - Environment and biodiversity in Sasol in the year 2022?,13400000.0
 432_X_Tongaat,Total Rand value of investments in projects to improve environmental efficiencies in Tongaat in the year 2022?,0.0
 444_X_Absa,Total tax payments in Absa in the year 2022?,8400000000.0
@@ -168,15 +168,15 @@ ID,query,Value
 444_X_Sasol,Direct taxes paid to government in Sasol in the year 2022?,0.0
 444_X_Ssw,Current tax and royalties in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 445_X_Ssw,Total area covered by tailings (ha) in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
-448_X_Ssw,Total assets in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
+448_X_Ssw,Total assets in Ssw for SA Operations PGM and Gold in the year 2022?,123564000000.0
 448_X_Uct1&2,Total assets in Uct1&2 in the year 2022?,0.0
 458_X_Distell,Total rand value of compensation paid to executive directors – including gains realised from LTIP awards in Distell in the year 2022?,40677117.0
 460_X_Ssw,Cyanide consumption in Ssw for SA Operations PGM and Gold in the year 2022?,2244.0
 466_X_Absa,Training spend (Rm) in Absa in the year 2022?,500000000.0
 466_X_Distell,Rand value of employee training spend in Distell in the year 2022?,26100000.0
-466_X_Impala,"Skills development – SA operations (Rm) for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",864000000.0
+466_X_Impala,"Skills development – SA operations (Rm) for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",1018000000.0
 466_X_Oceana1&2,Total investment in skills development in Oceana1&2 in the year 2022?,0.0
-466_X_Sasol,Total skills development expenditure (R million) in Sasol in the year 2022?,1170000000.0
+466_X_Sasol,Total skills development expenditure (R million) in Sasol in the year 2022?,1182000000.0
 466_X_Ssw,training and skills development in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 466_X_Tongaat,Value of employee training spend in Tongaat in the year 2022?,0.0
 468_X_Absa,Total energy use (kWh) in Absa in the year 2022?,215963015.0
@@ -187,25 +187,25 @@ ID,query,Value
 468_X_Tongaat,Total direct and indirect energy consumption in Tongaat in the year 2022?,0.0
 46_X_Absa,Total procurement spend on qualifying small enterprises and exempt micro enterprises(Rbn) in Absa in the year 2022?,2.6
 46_X_Oceana1&2,51% black-owned suppliers in Oceana1&2 in the year 2022?,0.0
-471_X_Distell,Total volume of electricity self-generated (MWh) – all sources in Distell in the year 2022?,3004.0
+471_X_Distell,Total volume of electricity self-generated (MWh) – all sources in Distell in the year 2022?,3.004
 471_X_Oceana1&2,Electricity purchased from renewable sources (Mwh) in Oceana1&2 in the year 2022?,0.0
 475_X_Distell,Rand value of investments in projects to improve energy efficiency in Distell in the year 2022?,6194440.0
-477_X_Distell,Total value of E+Scalator Programme + Agri+Gator Programme in Distell in the year 2022?,105100000.0
+477_X_Distell,Total value of E+Scalator Programme + Agri+Gator Programme in Distell in the year 2022?,105.1
 477_X_Oceana1&2,Enterprise development/Supplier development in Oceana1&2 in the year 2022?,0.0
 477_X_Sasol,Social Investment Spend - Enterprise and supplier development in Sasol in the year 2022?,0.0
 477_X_Tongaat,Enterprise and supplier development spend (i.e. support for small business) in Tongaat in the year 2022?,0.0
 47_X_Oceana1&2,Empowering QSE Suppliers in Oceana1&2 in the year 2022?,0.0
 484_X_Distell,Rand value of funds invested in research and development – in South Africa in Distell in the year 2022?,0.0
 484_X_Ssw,Research and development in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
-488_X_Impala,"Total water withdrawn for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",20268.0
-488_X_Ssw,Total water withdrawn in Ssw for SA Operations PGM and Gold in the year 2022?,125220.0
+488_X_Impala,"Total water withdrawn for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",17382.0
+488_X_Ssw,Total water withdrawn in Ssw for SA Operations PGM and Gold in the year 2022?,23691.0
 488_X_Tongaat,Water abstracted – total in Tongaat in the year 2022?,0.0
-489_X_Absa,Water consumption (kilolitres) in Absa in the year 2022?,290.762
-489_X_Distell,"Total volume of water consumed (kilolitres, or Kl) – new purchases and/or abstractions (excluding recycled water used) in Distell in the year 2022?",2258.753
+489_X_Absa,Water consumption (kilolitres) in Absa in the year 2022?,290762.0
+489_X_Distell,"Total volume of water consumed (kilolitres, or Kl) – new purchases and/or abstractions (excluding recycled water used) in Distell in the year 2022?",2.258
 489_X_Impala,"Total water used (water consumption) for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",25603.0
-489_X_Oceana1&2,WATER CONSUMPTION (KILOLITRES) PER DIVISION in Oceana1&2 in the year 2022?,369.744
+489_X_Oceana1&2,WATER CONSUMPTION (KILOLITRES) PER DIVISION in Oceana1&2 in the year 2022?,238.107
 489_X_Sasol,Total water use (thousand cubic meters) in Sasol in the year 2022?,114.1
-489_X_Ssw,Water used in Ssw for SA Operations PGM and Gold in the year 2022?,39214.0
+489_X_Ssw,Water used in Ssw for SA Operations PGM and Gold in the year 2022?,36380.0
 489_X_Tongaat,Net volume of water consumed in Tongaat in the year 2022?,0.0
 490_X_Absa,Non-renewable – Diesel (kWh) in Absa in the year 2022?,22175.521
 49_X_Absa,B-BBEE level (South Africa) in Absa in the year 2022?,1.0
@@ -221,10 +221,10 @@ ID,query,Value
 506_X_Absa,Total weighted spend with B-BBEE-accredited suppliers (Rbn) in Absa in the year 2022?,17300000000.0
 506_X_Oceana1&2,B-BBEE compliant suppliers in Oceana1&2 in the year 2022?,0.0
 506_X_Sasol,B-BBEE (RSA only) - Black-owned spend in Sasol in the year 2022?,0.0
-506_X_Ssw,Total BEE procurement spend in Ssw for SA Operations PGM and Gold in the year 2022?,21415000000.0
+506_X_Ssw,Total BEE procurement spend in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 508_X_Absa,Non-renewable – Electricity (kWh) in Absa in the year 2022?,157530491.0
 508_X_Distell,Total volume of electricity Consumed (MWh) – purchased + self-generated in Distell in the year 2022?,92459.0
-508_X_Impala,"Group material consumption Electricity for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",3359.0
+508_X_Impala,"Group material consumption Electricity for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",3743000.0
 508_X_Oceana1&2,Electricity purchased (renewable and non-renewable) (MWh) in Oceana1&2 in the year 2022?,0.0
 508_X_Ssw,Electricity consumed in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 508_X_Tongaat,Volume of electricity consumed – purchased and self-generated in Tongaat in the year 2022?,0.0
@@ -241,20 +241,20 @@ ID,query,Value
 523_X_Impala,"Total permanent employees for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 523_X_Oceana1&2,Direct employees in Oceana1&2 in the year 2022?,0.0
 523_X_Sasol,Permanent employees in Sasol in the year 2022?,0.0
-523_X_Ssw,No. of employees including contractors – total in Ssw for SA Operations PGM and Gold in the year 2022?,80727.0
+523_X_Ssw,No. of employees including contractors – total in Ssw for SA Operations PGM and Gold in the year 2022?,80627.0
 523_X_Tongaat,Number of employees (full time equivalent) in Tongaat in the year 2022?,0.0
 523_X_Uct1&2,Staff in Uct1&2 in the year 2022?,0.0
 52_X_Absa,Board meeting attendance (%) in Absa in the year 2022?,98.0
 52_X_Distell,Overall board and committee meeting attendance in Distell in the year 2022?,93.7
 52_X_Tongaat,Overall Board and Committee meeting attendance in Tongaat in the year 2022?,0.0
 532_X_Impala,"employee for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
-533_X_Impala,"Employee hours worked for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
+533_X_Impala,"Employee hours worked for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",94778178.0
 533_X_Oceana1&2,Total number of person hours worked in Oceana1&2 in the year 2022?,0.0
 533_X_Sasol,Total number of person hours worked (million) in Sasol in the year 2022?,0.0
 533_X_Tongaat,Number of person hours worked – employees and contractors in Tongaat in the year 2022?,0.0
 53_X_Absa,Average age 40-49 years in Absa in the year 2022?,3.0
 53_X_Ssw,younger than 50 in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
-54_X_Absa,Average age 50+ in Absa in the year 2022?,12.0
+54_X_Absa,Average age 50+ in Absa in the year 2022?,11.0
 54_X_Ssw,between 50 and 60 + older than 60 in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 550_X_Sasol,Noise-induced hearing loss in Sasol in the year 2022?,0.0
 550_X_Ssw,Noise-induced hearing loss (NIHL) in Ssw for SA Operations PGM and Gold in the year 2022?,264.0
@@ -262,20 +262,20 @@ ID,query,Value
 554_X_Absa,Learnerships – to unemployed / Learnerships – to individuals with disabilities / Internships in Absa in the year 2022?,2031.0
 555_X_Tongaat,Number of registered patents in Tongaat in the year 2022?,0.0
 564_X_Ssw,Silicosis in Ssw for SA Operations PGM and Gold in the year 2022?,188.0
-572_X_Impala,"Group material consumption - Petrol for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.99
+572_X_Impala,"Group material consumption - Petrol for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.954
 573_X_Tongaat,Water discharged (scheduled and/or non-scheduled effluent and/ or overflows) – total in Tongaat in the year 2022?,0.0
 574_X_Sasol,Potable water (thousand cubic meters) in Sasol in the year 2022?,0.0
-575_X_Absa,Total procurement spend in South Africa (Rbn) in Absa in the year 2022?,19.5
-575_X_Sasol,Preferential procurement from all suppliers in Sasol in the year 2022?,0.0
-579_X_Impala,"TIFR for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",28.51
+575_X_Absa,Total procurement spend in South Africa (Rbn) in Absa in the year 2022?,19500000000.0
+575_X_Sasol,Preferential procurement from all suppliers in Sasol in the year 2022?,13400000000.0
+579_X_Impala,"TIFR for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",28.3
 585_X_Ssw,Social and labour plan (SLP) projects in Ssw for SA Operations PGM and Gold in the year 2022?,2194800000.0
 587_X_Distell,"Rand value of CSI/SED spend on basic needs and social development, including nutrition and/or feeding programmes in Distell in the year 2022?",620000.0
 587_X_Oceana1&2,Welfare in Oceana1&2 in the year 2022?,0.0
 587_X_Tongaat,"CSI/SED spend on health, including HIV/AIDS in Tongaat in the year 2022?",0.0
 592_X_Oceana1&2,Community development in Oceana1&2 in the year 2022?,0.0
 595_X_Tongaat,Investments in projects to improve waste efficiency in Tongaat in the year 2022?,0.0
-602_X_Impala,"Current estimate of future rehabilitation costs for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",4176000000.0
-602_X_Ssw,Gross rehabilitation liabilities in Ssw for SA Operations PGM and Gold in the year 2022?,4500000000.0
+602_X_Impala,"Current estimate of future rehabilitation costs for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
+602_X_Ssw,Gross rehabilitation liabilities in Ssw for SA Operations PGM and Gold in the year 2022?,10200000000.0
 607_X_Ssw,Total socioeconomic development (SED) in Ssw for SA Operations PGM and Gold in the year 2022?,362400000.0
 607_X_Tongaat,"CSI/SED spend on basic needs and social development, including nutrition and/or feeding programmes in Tongaat in the year 2022?",0.0
 609_X_Oceana1&2,TRAINING SPEND - Bursaries in Oceana1&2 in the year 2022?,0.0
@@ -303,7 +303,7 @@ ID,query,Value
 734_X_Tongaat,Total volume of waste recycled (or reused) in Tongaat in the year 2022?,0.0
 735_X_Impala,"Total water recycled for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",27400.0
 735_X_Sasol,Water recycled (thousand cubic meters) in Sasol in the year 2022?,0.0
-738_X_Ssw,Water use intensity - kl/t treated in Ssw for SA Operations PGM and Gold in the year 2022?,1.06
+738_X_Ssw,Water use intensity - kl/t treated in Ssw for SA Operations PGM and Gold in the year 2022?,1.18
 749_X_Distell,Total carbon emissions (tonnes CO2 e) – Scope 1 and 2 in Distell in the year 2022?,168820.0
 749_X_Ssw,Total CO2e emissions: Scope 1 and 2 in Ssw for SA Operations PGM and Gold in the year 2022?,6695000.0
 749_X_Tongaat,Total carbon emissions – Scope 1 and 2 in Tongaat in the year 2022?,0.0
@@ -334,7 +334,7 @@ ID,query,Value
 799_X_Ssw,Average tenure at Sibanye-Stillwater in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 799_X_Tongaat,Average length of full Board service in Tongaat in the year 2022?,0.0
 7_X_Impala,"Total indirect Nox for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",14331.0
-7_X_Sasol,Nitrogen oxides (NOx) (kilotons) in Sasol in the year 2022?,118700.0
+7_X_Sasol,Nitrogen oxides (NOx) (kilotons) in Sasol in the year 2022?,122040.0
 849_X_Impala,"Number of new appointments/rehires externally - Female for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 850_X_Impala,"Number of new appointments/rehires externally - Male for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 852_X_Absa,Employees completing the Absa Way Code of Ethics training (%) in Absa in the year 2022?,0.0
@@ -350,7 +350,7 @@ ID,query,Value
 882_X_Uct1&2,tCO2e / capita / annum in Uct1&2 in the year 2022?,0.0
 883_X_Impala,"AET training employees for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",566.0
 886_X_Sasol,River water (thousand cubic meters) in Sasol in the year 2022?,0.0
-8_X_Impala,"Total direct SO2 + Total indirect SO2 for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",16035.0
+8_X_Impala,"Total direct SO2 + Total indirect SO2 for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",7383.0
 8_X_Sasol,Sulphur oxides (SOx ) (kilotons) in Sasol in the year 2022?,166880.0
 8_X_Ssw,SO2 emissions in Ssw for SA Operations PGM and Gold in the year 2022?,2576.0
 940_X_Absa,Physical footprint - Branches in Absa in the year 2022?,919.0
@@ -360,8 +360,8 @@ ID,query,Value
 957_X_Ssw,carbon tax expense in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 962_X_Absa,Total carbon emissions (tonnes CO_{2} ) in Absa in the year 2022?,177489.0
 962_X_Distell,"Total carbon emissions (tonnes of carbon dioxide equivalents, CO2 e) – Scopes 1, 2 and 3 in Distell in the year 2022?",489251.0
-962_X_Oceana1&2,"Absolute GHG emissions (Total scope 1, 2 and outside of scopes (other direct emissions)) in Oceana1&2 in the year 2022?",267431.0
-962_X_Sasol,Total greenhouse gas (CO2 equivalent) (kilotons) in Sasol in the year 2022?,63891000.0
+962_X_Oceana1&2,"Absolute GHG emissions (Total scope 1, 2 and outside of scopes (other direct emissions)) in Oceana1&2 in the year 2022?",235135.0
+962_X_Sasol,Total greenhouse gas (CO2 equivalent) (kilotons) in Sasol in the year 2022?,64392000.0
 962_X_Uct1&2,Total Emissions in Uct1&2 in the year 2022?,0.0
 9_X_Sasol,Particulates (fly ash) (kilotons) in Sasol in the year 2022?,0.0
 100_X_Absa,Discussion of strategies to reduce the environmental impact of packaging in Absa in the year 2022?,0.0
@@ -457,15 +457,15 @@ ID,query,Value
 1041_X_Clicks,Percentage of non-executive board members in Clicks in the year 2022?,0.0
 1041_X_Impala,"Percentage of non-executive board members for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 1041_X_Oceana1&2,Percentage of non-executive board members in Oceana1&2 in the year 2022?,0.0
-1041_X_Picknpay,Percentage of non-executive board members in Picknpay in the year 2022?,0.0
+1041_X_Picknpay,Percentage of non-executive board members in Picknpay in the year 2022?,83.3
 1041_X_Sasol,Percentage of non-executive board members in Sasol in the year 2022?,0.0
 1041_X_Ssw,Percentage of non-executive board members in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 1041_X_Uct1&2,Percentage of non-executive board members in Uct1&2 in the year 2022?,0.0
 1042_X_Absa,Percentage of independent board members in Absa in the year 2022?,0.0
-1042_X_Clicks,Percentage of independent board members in Clicks in the year 2022?,73.33
+1042_X_Clicks,Percentage of independent board members in Clicks in the year 2022?,73.0
 1042_X_Impala,"Percentage of independent board members for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 1042_X_Oceana1&2,Percentage of independent board members in Oceana1&2 in the year 2022?,0.0
-1042_X_Picknpay,Percentage of independent board members in Picknpay in the year 2022?,0.0
+1042_X_Picknpay,Percentage of independent board members in Picknpay in the year 2022?,84.6
 1042_X_Sasol,Percentage of independent board members in Sasol in the year 2022?,0.0
 1042_X_Uct1&2,Percentage of independent board members in Uct1&2 in the year 2022?,0.0
 1043_X_Absa,First aid representatives in Absa in the year 2022?,0.0
@@ -800,7 +800,7 @@ ID,query,Value
 126_X_Oceana1&2,Frequency/incident rates of occupational injuries in Oceana1&2 in the year 2022?,0.0
 126_X_Picknpay,Frequency/incident rates of occupational injuries in Picknpay in the year 2022?,0.0
 126_X_Sasol,Frequency/incident rates of occupational injuries in Sasol in the year 2022?,0.0
-126_X_Ssw,Frequency/incident rates of occupational injuries in Ssw for SA Operations PGM and Gold in the year 2022?,10.65
+126_X_Ssw,Frequency/incident rates of occupational injuries in Ssw for SA Operations PGM and Gold in the year 2022?,6.81
 126_X_Tongaat,Frequency/incident rates of occupational injuries in Tongaat in the year 2022?,0.0
 126_X_Uct1&2,Frequency/incident rates of occupational injuries in Uct1&2 in the year 2022?,0.0
 128_X_Clicks,GHG Scope 1 emissions in Clicks in the year 2022?,4087.0
@@ -985,7 +985,7 @@ ID,query,Value
 150_X_Tongaat,Legal fees per income statement in Tongaat in the year 2022?,0.0
 150_X_Uct1&2,Legal fees per income statement in Uct1&2 in the year 2022?,0.0
 151_X_Clicks,Lost-time injury frequency rate (LTIFR) in Clicks in the year 2022?,0.0
-151_X_Picknpay,Lost-time injury frequency rate (LTIFR) in Picknpay in the year 2022?,3.07
+151_X_Picknpay,Lost-time injury frequency rate (LTIFR) in Picknpay in the year 2022?,3.92
 151_X_Uct1&2,Lost-time injury frequency rate (LTIFR) in Uct1&2 in the year 2022?,0.0
 153_X_Absa,Maintenance costs per income statement in Absa in the year 2022?,0.0
 153_X_Clicks,Maintenance costs per income statement in Clicks in the year 2022?,0.0
@@ -1012,7 +1012,7 @@ ID,query,Value
 156_X_Distell,"Number of Medical Treatment Cases (MTCs, i.e. injuries on duty leading to medical treatment, but no lost days) in Distell in the year 2022?",0.0
 156_X_Impala,"Number of Medical Treatment Cases (MTCs, i.e. injuries on duty leading to medical treatment, but no lost days) for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 156_X_Oceana1&2,"Number of Medical Treatment Cases (MTCs, i.e. injuries on duty leading to medical treatment, but no lost days) in Oceana1&2 in the year 2022?",0.0
-156_X_Picknpay,"Number of Medical Treatment Cases (MTCs, i.e. injuries on duty leading to medical treatment, but no lost days) in Picknpay in the year 2022?",375.0
+156_X_Picknpay,"Number of Medical Treatment Cases (MTCs, i.e. injuries on duty leading to medical treatment, but no lost days) in Picknpay in the year 2022?",167.0
 156_X_Sasol,"Number of Medical Treatment Cases (MTCs, i.e. injuries on duty leading to medical treatment, but no lost days) in Sasol in the year 2022?",0.0
 156_X_Ssw,"Number of Medical Treatment Cases (MTCs, i.e. injuries on duty leading to medical treatment, but no lost days) in Ssw for SA Operations PGM and Gold in the year 2022?",0.0
 156_X_Tongaat,"Number of Medical Treatment Cases (MTCs, i.e. injuries on duty leading to medical treatment, but no lost days) in Tongaat in the year 2022?",0.0
@@ -1274,7 +1274,7 @@ ID,query,Value
 20_X_Tongaat,Amount of fines paid or payable due to settlements in Tongaat in the year 2022?,0.0
 20_X_Uct1&2,Amount of fines paid or payable due to settlements in Uct1&2 in the year 2022?,0.0
 212_X_Absa,Number of employees covered by medical aid/wellness benefits in Absa in the year 2022?,0.0
-212_X_Clicks,Number of employees covered by medical aid/wellness benefits in Clicks in the year 2022?,13367.0
+212_X_Clicks,Number of employees covered by medical aid/wellness benefits in Clicks in the year 2022?,13085.6
 212_X_Distell,Number of employees covered by medical aid/wellness benefits in Distell in the year 2022?,0.0
 212_X_Impala,"Number of employees covered by medical aid/wellness benefits for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 212_X_Oceana1&2,Number of employees covered by medical aid/wellness benefits in Oceana1&2 in the year 2022?,0.0
@@ -1322,7 +1322,7 @@ ID,query,Value
 21_X_Ssw,Volume of Waste sent for Recycling (tonnes) – Food Waste Recovered in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 21_X_Tongaat,Volume of Waste sent for Recycling (tonnes) – Food Waste Recovered in Tongaat in the year 2022?,0.0
 21_X_Uct1&2,Volume of Waste sent for Recycling (tonnes) – Food Waste Recovered in Uct1&2 in the year 2022?,0.0
-220_X_Clicks,Number of female board members in Clicks in the year 2022?,4.0
+220_X_Clicks,Number of female board members in Clicks in the year 2022?,0.0
 220_X_Impala,"Number of female board members for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 220_X_Oceana1&2,Number of female board members in Oceana1&2 in the year 2022?,0.0
 220_X_Picknpay,Number of female board members in Picknpay in the year 2022?,0.0
@@ -1680,7 +1680,7 @@ ID,query,Value
 295_X_Ssw,Percentage of employees covered by collective agreements in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 295_X_Uct1&2,Percentage of employees covered by collective agreements in Uct1&2 in the year 2022?,0.0
 298_X_Absa,Percentage of female board members in Absa in the year 2022?,0.0
-298_X_Clicks,Percentage of female board members in Clicks in the year 2022?,36.0
+298_X_Clicks,Percentage of female board members in Clicks in the year 2022?,0.0
 298_X_Impala,"Percentage of female board members for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 298_X_Oceana1&2,Percentage of female board members in Oceana1&2 in the year 2022?,0.0
 298_X_Picknpay,Percentage of female board members in Picknpay in the year 2022?,0.0
@@ -1907,7 +1907,7 @@ ID,query,Value
 341_X_Tongaat,Percentage of white people in junior management positions in Tongaat in the year 2022?,0.0
 341_X_Uct1&2,Percentage of white people in junior management positions in Uct1&2 in the year 2022?,0.0
 343_X_Absa,Percentage of white people in non-executive management in Absa in the year 2022?,0.0
-343_X_Clicks,Percentage of white people in non-executive management in Clicks in the year 2022?,4.0
+343_X_Clicks,Percentage of white people in non-executive management in Clicks in the year 2022?,0.0
 343_X_Distell,Percentage of white people in non-executive management in Distell in the year 2022?,0.0
 343_X_Impala,"Percentage of white people in non-executive management for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 343_X_Oceana1&2,Percentage of white people in non-executive management in Oceana1&2 in the year 2022?,0.0
@@ -2354,7 +2354,7 @@ ID,query,Value
 453_X_Tongaat,Total Carbon equivalent emission from fossil fuels in Tongaat in the year 2022?,0.0
 453_X_Uct1&2,Total Carbon equivalent emission from fossil fuels in Uct1&2 in the year 2022?,0.0
 458_X_Absa,Total compensation of board members (both executive and non-executive directors) in Absa in the year 2022?,0.0
-458_X_Clicks,Total compensation of board members (both executive and non-executive directors) in Clicks in the year 2022?,0.0
+458_X_Clicks,Total compensation of board members (both executive and non-executive directors) in Clicks in the year 2022?,25050000.0
 458_X_Impala,"Total compensation of board members (both executive and non-executive directors) for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 458_X_Oceana1&2,Total compensation of board members (both executive and non-executive directors) in Oceana1&2 in the year 2022?,0.0
 458_X_Picknpay,Total compensation of board members (both executive and non-executive directors) in Picknpay in the year 2022?,0.0
@@ -2524,7 +2524,7 @@ ID,query,Value
 488_X_Sasol,Total fresh water withdrawn in Sasol in the year 2022?,0.0
 488_X_Uct1&2,Total fresh water withdrawn in Uct1&2 in the year 2022?,0.0
 489_X_Clicks,Total water consumed in Clicks in the year 2022?,0.0
-489_X_Picknpay,Total water consumed in Picknpay in the year 2022?,1117.0
+489_X_Picknpay,Total water consumed in Picknpay in the year 2022?,1019918.0
 489_X_Uct1&2,Total water consumed in Uct1&2 in the year 2022?,0.0
 48_X_Absa,BBBEE procurment spend from all EME's as a % of total spend in Absa in the year 2022?,0.0
 48_X_Clicks,BBBEE procurment spend from all EME's as a % of total spend in Clicks in the year 2022?,0.0
@@ -2719,7 +2719,7 @@ ID,query,Value
 53_X_Sasol,Board members between 30 - 50 in Sasol in the year 2022?,0.0
 53_X_Tongaat,Board members between 30 - 50 in Tongaat in the year 2022?,0.0
 53_X_Uct1&2,Board members between 30 - 50 in Uct1&2 in the year 2022?,0.0
-54_X_Clicks,Board members over 50 in Clicks in the year 2022?,8.0
+54_X_Clicks,Board members over 50 in Clicks in the year 2022?,6.0
 54_X_Distell,Board members over 50 in Distell in the year 2022?,0.0
 54_X_Impala,"Board members over 50 for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 54_X_Oceana1&2,Board members over 50 in Oceana1&2 in the year 2022?,0.0
@@ -2934,7 +2934,7 @@ ID,query,Value
 599_X_Distell,Rand Million Value of distributions on behalf of Feed the Nation in Distell in the year 2022?,0.0
 599_X_Impala,"Rand Million Value of distributions on behalf of Feed the Nation for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 599_X_Oceana1&2,Rand Million Value of distributions on behalf of Feed the Nation in Oceana1&2 in the year 2022?,0.0
-599_X_Picknpay,Rand Million Value of distributions on behalf of Feed the Nation in Picknpay in the year 2022?,178000000.0
+599_X_Picknpay,Rand Million Value of distributions on behalf of Feed the Nation in Picknpay in the year 2022?,17800000.0
 599_X_Sasol,Rand Million Value of distributions on behalf of Feed the Nation in Sasol in the year 2022?,0.0
 599_X_Ssw,Rand Million Value of distributions on behalf of Feed the Nation in Ssw for SA Operations PGM and Gold in the year 2022?,0.0
 599_X_Tongaat,Rand Million Value of distributions on behalf of Feed the Nation in Tongaat in the year 2022?,0.0
@@ -3384,7 +3384,7 @@ ID,query,Value
 716_X_Ssw,"Utilities (Elec, Water, Services) as per income statement in Ssw for SA Operations PGM and Gold in the year 2022?",0.0
 716_X_Tongaat,"Utilities (Elec, Water, Services) as per income statement in Tongaat in the year 2022?",0.0
 716_X_Uct1&2,"Utilities (Elec, Water, Services) as per income statement in Uct1&2 in the year 2022?",0.0
-732_X_Clicks,Voluntary turnover rate for all employees in Clicks in the year 2022?,0.0
+732_X_Clicks,Voluntary turnover rate for all employees in Clicks in the year 2022?,
 732_X_Oceana1&2,Voluntary turnover rate for all employees in Oceana1&2 in the year 2022?,0.0
 732_X_Picknpay,Voluntary turnover rate for all employees in Picknpay in the year 2022?,0.0
 732_X_Sasol,Voluntary turnover rate for all employees in Sasol in the year 2022?,0.0
@@ -3831,7 +3831,7 @@ ID,query,Value
 796_X_Clicks,Number of non-executive board members in Clicks in the year 2022?,0.0
 796_X_Impala,"Number of non-executive board members for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 796_X_Oceana1&2,Number of non-executive board members in Oceana1&2 in the year 2022?,0.0
-796_X_Picknpay,Number of non-executive board members in Picknpay in the year 2022?,11.0
+796_X_Picknpay,Number of non-executive board members in Picknpay in the year 2022?,0.0
 796_X_Sasol,Number of non-executive board members in Sasol in the year 2022?,0.0
 796_X_Uct1&2,Number of non-executive board members in Uct1&2 in the year 2022?,0.0
 797_X_Absa,Number of other board positions per board member in Absa in the year 2022?,0.0
@@ -4119,7 +4119,7 @@ ID,query,Value
 827_X_Tongaat,Ratio of temporary workers to permanent workers broken down by racial group: Coloured in Tongaat in the year 2022?,0.0
 827_X_Uct1&2,Ratio of temporary workers to permanent workers broken down by racial group: Coloured in Uct1&2 in the year 2022?,0.0
 828_X_Absa,Ratio of temporary workers to permanent workers broken down by racial group: Indian in Absa in the year 2022?,0.0
-828_X_Clicks,Ratio of temporary workers to permanent workers broken down by racial group: Indian in Clicks in the year 2022?,0.05
+828_X_Clicks,Ratio of temporary workers to permanent workers broken down by racial group: Indian in Clicks in the year 2022?,0.0
 828_X_Distell,Ratio of temporary workers to permanent workers broken down by racial group: Indian in Distell in the year 2022?,0.0
 828_X_Impala,"Ratio of temporary workers to permanent workers broken down by racial group: Indian for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 828_X_Oceana1&2,Ratio of temporary workers to permanent workers broken down by racial group: Indian in Oceana1&2 in the year 2022?,0.0
@@ -5018,7 +5018,7 @@ ID,query,Value
 948_X_Tongaat,Percentage of non-hazardous waste landfilled in Tongaat in the year 2022?,0.0
 948_X_Uct1&2,Percentage of non-hazardous waste landfilled in Uct1&2 in the year 2022?,0.0
 949_X_Absa,Duration (days) of non-technical delays in Absa in the year 2022?,0.0
-949_X_Clicks,Duration (days) of non-technical delays in Clicks in the year 2022?,
+949_X_Clicks,Duration (days) of non-technical delays in Clicks in the year 2022?,0.0
 949_X_Distell,Duration (days) of non-technical delays in Distell in the year 2022?,0.0
 949_X_Impala,"Duration (days) of non-technical delays for Impala Rustenburg, Impala Refineries, Marula in the year 2022?",0.0
 949_X_Oceana1&2,Duration (days) of non-technical delays in Oceana1&2 in the year 2022?,0.0

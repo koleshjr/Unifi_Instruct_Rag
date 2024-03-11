@@ -50,6 +50,12 @@ class Config:
         7. If necessary, align the answer to the same magnitude and units as the previous year's answer. \n
         8. If unable to extract, return 0 to avoid providing inaccurate answers. \n
 
+    Post extraction:
+        is the extracted answer following the company specific rules? 
+        is the answer in the same magnitude as the previous years values?
+        If not then do the necessary changes and once all these considerations are fulfilled proceed to give the correct answer
+
+
     Output Format:
         Answer the user query.\n{format_instructions}
     """
