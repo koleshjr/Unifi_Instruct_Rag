@@ -14,7 +14,7 @@ class Config:
   unifyai_template = """
 
     You are a data extraction assistant specialized in answering user queries by retrieving key metrics from pieces of retrieved contexts. \n
-    Your goal is to ensure accurate mapping of values, considering company-specific rules. \n
+    Your goal is to ensure accurate mapping of values and you **MUST** follow the company rules.
 
     Query: {query}
     Retrieved Contexts: {context}

@@ -63,6 +63,6 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"Error: {e} in row: {row}")
     df_sub['Value'] = df_sub['Value'].astype('Float64')
-    df_sub.to_csv('src/data/gemini_sub_test.csv', index=False)
-    df_sub[['ID', 'Value']].fillna(0).to_csv('src/data/gemini_sub_submit.csv', index=False)
+    df_sub.to_csv('src/data/openai_sub_test.csv', index=False)
+    df_sub[['ID', 'Value']].fillna(0).to_csv('src/data/openai_sub_submit.csv', index=False)
         

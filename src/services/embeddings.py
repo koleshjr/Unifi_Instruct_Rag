@@ -12,7 +12,7 @@ class Embeddings:
 
     def get_embedding_function(self):
         if self.embedding_provider == 'openai':
-            return OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+            return OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'), model = "text-embedding-3-large")
         elif self.embedding_provider == 'google':
             return GoogleGenerativeAIEmbeddings(model = 'models/embedding-001', google_api_key=os.getenv('GOOGLE_API_KEY'))
         elif self.embedding_provider == 'huggingface':
