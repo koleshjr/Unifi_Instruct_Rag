@@ -116,3 +116,58 @@ class Config:
     Answer the user query in the following format: .\n{format_instructions}
 
     """
+
+    unifyai_pseudocode_template ="""
+        function extractKeyMetric(question, context, value_2019, value_2020, value_2021):
+            # Step 1: Read and understand the query, context, and company rules
+            companyRules = parseCompanyRules(context)
+
+            # Step 2 & 3: Analyze previous year queries and answers to understand patterns
+            prevYearPatterns = analyzePreviousYearPatterns(value_2019, value_2020, value_2021)
+
+            # Step 4: Generate rules based on patterns
+            extractionRules = generateExtractionRules(prevYearPatterns, companyRules)
+
+            # Step 5: Follow company-specific rules, extract and confirm answer's magnitude and units
+            value_2022 = extractValue(context, question, extractionRules)
+            magnitude, units = confirmMagnitudeAndUnits(value_2022, value_2019, value_2020, value_2021)
+
+            # Step 6: Check if the answer is in the same magnitude and units as previous years
+            if magnitude and units:
+                return value_2022
+            else:
+                # Step 7: Align the answer to the same magnitude and units as previous years
+                value_2022_aligned = alignMagnitudeAndUnits(value_2022, magnitude, units)
+                return value_2022_aligned
+
+            # Step 8: If unable to extract, return 0 to avoid providing inaccurate answers
+            return 0
+
+        # Helper functions
+        function parseCompanyRules(context):
+            # Parse and extract company-specific rules from the context
+            # Return companyRules
+
+        function analyzePreviousYearPatterns(value_2019, value_2020, value_2021):
+            # Analyze patterns in previous year values
+            # Return prevYearPatterns
+
+        function generateExtractionRules(prevYearPatterns, companyRules):
+            # Generate extraction rules based on patterns and company rules
+            # Return extractionRules
+
+        function extractValue(context, question, extractionRules):
+            # Extract the value for 2022 based on the extraction rules
+            # Return value_2022
+
+        function confirmMagnitudeAndUnits(value_2022, value_2019, value_2020, value_2021):
+            # Confirm the magnitude and units of the extracted value
+            # Return magnitude, units
+
+        function alignMagnitudeAndUnits(value_2022, magnitude, units):
+            # Align the extracted value to the same magnitude and units as previous years
+            # Return value_2022_aligned    
+    
+    
+    
+    """
