@@ -86,7 +86,7 @@ class DocumentLoader:
                     )
                     file_extractor = {".pdf": parser}
                     documents = SimpleDirectoryReader(input_files = [file_path], file_extractor = file_extractor).load_data()
-                    pages_with_str = documents[0].text.split("\n##")
+                    pages_with_str = documents[0].text.split("\n---")
                     for page in pages_with_str:
                         doc = Document(
                                 page_content=page,
