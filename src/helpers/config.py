@@ -10,20 +10,6 @@ class Config:
     df_valid_path = "src/data/df_valid.csv"
     sub_path = "src/data/sub.csv"
 
-    unifyai_improved_template = """
-    You are a data extraction assistant specialized in answering user queries by retrieving key metrics from pieces of retrieved contexts. \n
-    Your goal is to ensure accurate mapping of values, considering company-specific rules. \n
-
-    Question: {question}
-    Retrieved Context: {context}
-    2019 Value: {value_2019}
-    2020 Value: {value_2020}
-    2021 Value: {value_2021}
-    2022 Value: 
-    Answer the user query in the following format: .\n{format_instructions}
-
-    """
-
 
     # unify instruct template
     unifyai_template = """
@@ -76,43 +62,3 @@ class Config:
             Answer the user query .\n{format_instructions}
         """
 
-
-    unify_new_template ="""
-    **Your Role:**
-
-    * You are an assistant designed to retrieve specific yearly key metrics from document for the year 2022.
-    * You process a question along with retrieved context and historical yearly values (2019-2022):
-    * If you are unable to extract the 2022 value from the retrieved context the return a 0
-
-    **Your Task:**
-
-    1. **Extract the 2022 Value:** Your primary objective is to find the value for the year 2022 within the provided documents.
-    2. **Ensure Accuracy and Magnitude:**  
-        * Utilize the historical values (2019-2021) to understand the expected range and format of the 2022 value.
-        * Extract a value for 2022 that is consistent in magnitude (scale) with the previous years' data.
-
-    **Information Provided:**
-
-    * **Question:** {question}
-    * **retrieved_context:** {context}
-    * **2019_value** {value_2019}
-    * **2020_value** {value_2020}
-    * **2021_value** {value_2021}
-
-    In addition to the above, some companies have specific rules for processing data:
-
-        Distell: (Applicable when the company_name is Distell)
-            If there's no space between the query and the value, remove the first number (from the left) of the value and return the remaining numbers.
-            Example:
-                Input: "Number of lost days (Distell Group)1161 127 550"
-                Output: "161 127 550"
-        Impala: (Applicable when the company_name is Impala)
-            If the retrieved context includes values for Impala Rustenburg, Impala Refineries, and Marula, return the aggregate sum of the 2022 values for these locations as the total value for Impala.
-        Ssw: (Applicable when the company_name is Ssw)
-            If the retrieved context contains values for "SA operations pgm" and "gold", focus only on these values.
-            Return the aggregate sum of the 2022 values for "SA operations pgm" and "gold" as the total value for Ssw.
-
-    **Output:**
-    Answer the user query in the following format: .\n{format_instructions}
-
-    """

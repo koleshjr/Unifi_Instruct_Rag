@@ -42,9 +42,3 @@ class Llms:
             return AzureOpenAI(deployment_name = "gpt-35-turbo")
         else:
             raise Exception("Invalid model provider we currently support only openai, azure and google models")
-        elif self.model_provider == 'azure':
-            return AzureOpenAI(deployment_name = self.model_name)
-        
-        else:
-            raise Exception("Invalid model provider we currently support only openai and google models")
-

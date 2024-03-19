@@ -19,8 +19,7 @@ class Embeddings:
             return GoogleGenerativeAIEmbeddings(model = 'models/embedding-001', google_api_key=os.getenv('GOOGLE_API_KEY'))
         elif self.embedding_provider == 'mistral':
             return MistralAIEmbeddings(mistral_api_key=os.getenv('MISTRAL_API_KEY'))
-        elif self.embedding_provider == 'huggingface':
-            model_name = "BAAI/bge-large-en-v1.5"
+
         elif self.embedding_provider == 'huggingface':
             model_name = "BAAI/bge-small-en"
             model_kwargs = {"device": "cpu"}

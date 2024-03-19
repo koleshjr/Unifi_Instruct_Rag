@@ -39,9 +39,6 @@ class Retrieval:
         elif self.vector_store == 'milvus':
             vector_index = Milvus(embedding_function, connection_args = {"host": os.getenv('MILVUS_HOST'), "port": os.getenv('MILVUS_PORT'), "collection_name": self.index_name}).as_retriever(search_kwargs = {"k": self.top_k})
         elif self.vector_store == 'faiss':
-            vector_index = FAISS.load_local(self.index_name, embedding_function).as_retriever(search_kwargs = {"k": self.top_k})
-
-        elif self.vector_store == 'faiss':
             vector_index = FAISS.load_local(self.index_name, embedding_function, allow_dangerous_deserialization=True).as_retriever(search_kwargs = {"k": self.top_k})
         if not with_sources:
             rag_chain = (
