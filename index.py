@@ -2,7 +2,6 @@ import argparse
 from src.services.vector_databases import VectorStore
 from src.services.document_loaders import DocumentLoader
 from src.services.embeddings import Embeddings
-from src.services.splitters import Splitter
 from src.helpers.config import Config
 
 parser = argparse.ArgumentParser(description= "index and embed required documents")
