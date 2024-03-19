@@ -58,7 +58,7 @@ Run main.py and pass the specified CLI arguments. Specifically:
 
 * Proprietary models definitely won.
   
-   In my case, I had success with Gemini-Pro and GPT-4. GPT-4 is expensive but still doesn't cost more than $11 per extraction. Gemini-Pro, on the other hand, is way cheaper (approximately $1 per experiment) and offers comparable accuracy with GPT-4 although slightly lower.
+   In my case, I had success with Gemini-Pro and GPT-4. GPT-4 is expensive but still doesn't cost more than $11 per extraction. Gemini-Pro, on the other hand, is way cheaper (approximately less $0.5 to $1 per experiment) and offers comparable accuracy with GPT-4 although slightly lower.
   
 * Large language models love to be shown what to do to increase accuracy.
 
