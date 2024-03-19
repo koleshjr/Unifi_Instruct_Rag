@@ -58,7 +58,7 @@ Run main.py and pass the specified CLI arguments. Specifically:
 
 * Proprietary models definitely won.
   
-   In my case, I had success with Gemini-Pro and GPT-4. GPT-4 is expensive but still doesn't cost more than $11 per extraction. Gemini-Pro, on the other hand, is way cheaper (approximately less $0.5 to $1 per experiment) and offers comparable accuracy with GPT-4 although slightly lower.
+   In my case, I had success with Gemini-Pro and GPT-4. GPT-4 is expensive but still doesn't cost more than $11 per extraction. Gemini-Pro, on the other hand, is way cheaper (approximately $0.5 to $1 per experiment) and offers comparable accuracy with GPT-4 although slightly lower.
   
 * Large language models love to be shown what to do to increase accuracy.
 
@@ -68,7 +68,7 @@ Run main.py and pass the specified CLI arguments. Specifically:
 
    Some of the values were given in different magnitudes, and you had to derive the accurate value by doing some mathematical calculation, for example, 8.8 Rbn (in the PDF), but in the evaluation, you need to pass 8800000000 for it to be accurate.    The models really struggled with this.
   
-* Metrics for some values were not straightforward.
+* Metrics for some companies were not straightforward.
   
    For example, a company like Impala, the accurate values were obtained by adding values for Impala Rustenburg, Impala Refineries, and Marula. For Impala, the model really struggled despite a good prompt.
    Also for SSW, the values we were supposed to extract were for SA operations PGM and gold, and we were supposed to ignore for Europe. This separation proved so hard for the model to get it right.
@@ -76,6 +76,8 @@ Run main.py and pass the specified CLI arguments. Specifically:
 #### **Potential ways of cheating on this competition**
 
 * One could easily read the PDFs, build a CSV of the accurate values by doing all the calculations mentioned above manually, and embed this CSV. With this approach, you can easily get to >0.94 with even less than $0.20. Doing this, despite giving the best results, doesn't make sense for the competition objective. The objective is not to build a question-answering system as this would be the best way to do it but actually, the objective is to build an extractor. No human should be involved. The human should only be involved after the extraction process for confirmation purposes only. Involving a human before then, what is the point of building a model then? Just let them read the PDFs and get the values then build a question-answering system.
+
+* As you can see in this approach no human is involved in the whole of this Extraction process. No preprocessing, no postprocessing just letting the Model handle everything
 
 #### **Implementation suggestion**
 
