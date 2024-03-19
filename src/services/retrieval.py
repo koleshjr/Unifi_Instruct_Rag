@@ -11,7 +11,6 @@ from langchain_core.pydantic_v1 import BaseModel, Field
 class RagOutput(BaseModel):
     value_2022: float = Field(..., description="extracted 2022 value which is a float")
 
-
 class Retrieval:
     def __init__(self, vector_store, index_name, top_k: int = 3):
         load_dotenv()
@@ -23,6 +22,7 @@ class Retrieval:
         return "\n\n".join(doc.page_content for doc in docs)
     
     def retrieve_and_generate(self, embedding_function: str, query: str, value_2019, value_2020, value_2021, template: str, llm: str, with_sources: bool = False):
+
         parser = JsonOutputParser(pydantic_object=RagOutput)
         custom_rag_prompt = PromptTemplate(template = template, 
                                            input_variables = ["question", "context", "value_2019", "value_2020", "value_2021"],
@@ -38,6 +38,8 @@ class Retrieval:
             },)
         elif self.vector_store == 'milvus':
             vector_index = Milvus(embedding_function, connection_args = {"host": os.getenv('MILVUS_HOST'), "port": os.getenv('MILVUS_PORT'), "collection_name": self.index_name}).as_retriever(search_kwargs = {"k": self.top_k})
+        elif self.vector_store == 'faiss':
+            vector_index = FAISS.load_local(self.index_name, embedding_function).as_retriever(search_kwargs = {"k": self.top_k})
 
         elif self.vector_store == 'faiss':
             vector_index = FAISS.load_local(self.index_name, embedding_function, allow_dangerous_deserialization=True).as_retriever(search_kwargs = {"k": self.top_k})

@@ -21,7 +21,6 @@ def prepare_train_data(train_filepath: str, synonyms_path: str, standard_path: s
 
     final_valid = pd.concat([valid_1, valid_2]).reset_index(drop=True)
     final_valid['group'] = final_valid['ID'].apply(lambda x: x.split("_")[2])
-
     return final_valid
 
 def prepare_sub_data(sub_filepath: str, synonyms_path: str, standard_path: str) -> pd.DataFrame:

@@ -6,6 +6,7 @@ from langchain.docstore.document import Document
 from llama_parse import LlamaParse 
 from llama_index.core import SimpleDirectoryReader
 
+
 class DocumentLoader:
     def __init__(self):
         load_dotenv()
@@ -51,7 +52,6 @@ class DocumentLoader:
  
             except Exception as e:
                 print(f"Error loading file {file} with error {e}") 
-
         return docs
     
     def load_and_get_text_llama_parse(self, folder_path):
@@ -101,4 +101,3 @@ class DocumentLoader:
                 print(f"Error loading file {file} with error {e}") 
 
         return docs
- 
