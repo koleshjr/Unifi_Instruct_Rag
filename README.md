@@ -76,13 +76,3 @@ Run main.py and pass the specified CLI arguments. Specifically:
 #### **Potential ways of cheating on this competition**
 
 * One could easily read the PDFs, build a CSV of the accurate values by doing all the calculations mentioned above manually, and embed this CSV. With this approach, you can easily get to >0.94 with even less than $0.20. Doing this, despite giving the best results, doesn't make sense for the competition objective. The objective is not to build a question-answering system as this would be the best way to do it but actually, the objective is to build an extractor. No human should be involved. The human should only be involved after the extraction process for confirmation purposes only. Involving a human before then, what is the point of building a model then? Just let them read the PDFs and get the values then build a question-answering system.
-
-* As you can see in this approach no human is involved in the whole of this Extraction process. No preprocessing, no postprocessing just letting the Model handle everything
-
-#### **Implementation suggestion**
-
-* Build an API where after each year, you could just pass all the company PDFs and then get a list of JSON metadata representing the client metrics and the extracted values.
-  
-* And then after, since these models are not 100% accurate, involve the human to correct the wrongly predicted values and then build a CSV with these values.
-  
-* Then embed this CSV and use this for a question-answering system. This will be very accurate and fast as it just has to parse a row of metadata instead of a whole page of text.
