@@ -73,6 +73,7 @@ Run main.py and pass the specified CLI arguments. Specifically:
    For example, a company like Impala, the accurate values were obtained by adding values for Impala Rustenburg, Impala Refineries, and Marula. For Impala, the model really struggled despite a good prompt.
    Also for SSW, the values we were supposed to extract were for SA operations PGM and gold, and we were supposed to ignore for Europe. This separation proved so hard for the model to get it right.
 
-#### **Potential ways of cheating on this competition**
-
-* One could easily read the PDFs, build a CSV of the accurate values by doing all the calculations mentioned above manually, and embed this CSV. With this approach, you can easily get to >0.94 with even less than $0.20. Doing this, despite giving the best results, doesn't make sense for the competition objective. The objective is not to build a question-answering system as this would be the best way to do it but actually, the objective is to build an extractor. No human should be involved. The human should only be involved after the extraction process for confirmation purposes only. Involving a human before then, what is the point of building a model then? Just let them read the PDFs and get the values then build a question-answering system.
+### RESULTS 
+##### https://zindi.africa/competitions/unifi-value-frameworks-pdf-lifting-competition/leaderboard
+* PUBLIC LB: 0.941291585
+* PRIVATE LB: 0.929829466
