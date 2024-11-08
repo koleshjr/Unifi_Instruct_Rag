@@ -20,39 +20,39 @@ There are four stages in a Rag Pipeline: Ingest, Embed, Retrieve, and Answer. Th
 
 #### **Initial steps**
 
-1. Git clone this repo
+* 1. Git clone this repo
 
-2. Setup conda environment or venv. Your choice (Optional)
+* 2. Setup conda environment or venv. Your choice (Optional)
    
-3. Pip install all the requirements in requirements.txt
+* 3. Pip install all the requirements in requirements.txt
 
 #### **Ingest and Embed**
 
 Run index.py and pass specified CLI arguments. Specifically:
 
-   a) --vector_store: at the moment the project supports chroma, Milvus, and faiss e.g. faiss
+* a) --vector_store: at the moment the project supports chroma, Milvus, and faiss e.g. faiss
+
+* b) --index_name: name it whatever you like as it will be the name of your vector database e.g. faiss_db
    
-   b) --index_name: name it whatever you like as it will be the name of your vector database e.g. faiss_db
-   
-   c) --embedding_provider: at the moment the project supports OpenAI, Google, Mistral, Hugging Face, and Azure (though not flexible atm) e.g. Hugging Face
+* c) --embedding_provider: at the moment the project supports OpenAI, Google, Mistral, Hugging Face, and Azure (though not flexible atm) e.g. Hugging Face
 
 #### **Retrieve and Answer**
 
 Run main.py and pass the specified CLI arguments. Specifically:
 
-   a) --vector_store: the vector database you used in the ingest and embed stage e.g. faiss
+* a) --vector_store: the vector database you used in the ingest and embed stage e.g. faiss
    
-   b) --index_name: the name you gave your vector database index in the ingest and embed stage e.g. faiss_db
+* b) --index_name: the name you gave your vector database index in the ingest and embed stage e.g. faiss_db
    
-   c) --model_provider: the model provider you want to use. At the moment the project supports OpenAI, Google, Azure, and Mistral e.g. OpenAI
+* c) --model_provider: the model provider you want to use. At the moment the project supports OpenAI, Google, Azure, and Mistral e.g. OpenAI
    
-   d) --model_name: Once you have decided which model provider to use then you can choose one of the models they provide e.g. gpt-3.5-turbo-1106
+* d) --model_name: Once you have decided which model provider to use then you can choose one of the models they provide e.g. gpt-3.5-turbo-1106
    
-   e) --embedding_provider: The embedding provider you used in the embed stage or any since this will be used to embed the query e.g. Hugging Face
+* e) --embedding_provider: The embedding provider you used in the embed stage or any since this will be used to embed the query e.g. Hugging Face
    
-   f) --year: The year for which you want to extract the metrics e.g. 2022
+* f) --year: The year for which you want to extract the metrics e.g. 2022
    
-   g) -- experiment: What you want your submission file to be saved as e.g. experiment one
+* g) -- experiment: What you want your submission file to be saved as e.g. experiment one
 
 #### **Main takeaways**
 
